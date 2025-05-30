@@ -136,8 +136,8 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Names**: `DeepSample`, `DeepSample4LLM`  
 - **Maturity Level**: 2  
 - **Links**:  
-  - [DeepSample](https://github.com/dessertlab/DeepSample)  (original repository)
-  - [OperationalTesting4LLMs](https://github.com/leanerr/OperationalTesting4LLMs) (original repository)
+  - [DeepSample](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/DeepSample)
+  - [OperationalTesting4LLMs](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/OperationalTesting4LLMs) 
 
 ---
 
