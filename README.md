@@ -122,7 +122,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Name**: N/A  
 - **Maturity Level**: 3  
 - **Links**:  
-  - [Risk Assessment Mitigation](https://github.com/uDEVOPS2020/Risk_Assessment_Mitigation) 
+  - [Risk Assessment Mitigation](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Risk_Assessment_Mitigation) 
   - [ICSOC Monitoring](https://github.com/S2-group/icsoc-2023-energy-perf-monitoring-docker-rep-pkg) (original repository)
 
 ---
@@ -136,8 +136,8 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Names**: `DeepSample`, `DeepSample4LLM`  
 - **Maturity Level**: 2  
 - **Links**:  
-  - [DeepSample](https://github.com/dessertlab/DeepSample)  
-  - [OperationalTesting4LLMs](https://github.com/leanerr/OperationalTesting4LLMs)
+  - [DeepSample](https://github.com/dessertlab/DeepSample)  (original repository)
+  - [OperationalTesting4LLMs](https://github.com/leanerr/OperationalTesting4LLMs) (original repository)
 
 ---
 
@@ -149,7 +149,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Functional Correctness  
 - **Internal Name**: `Learning-To-Rank`  
 - **Maturity Level**: 2  
-- **Link**: [ContextLearning - Use Case 1](https://github.com/uDEVOPS2020/ContextLearning/tree/main/Use%20Case%201)
+- **Link**: [ContextLearning - Use Case 1](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Use%20Case%201)
 
 ---
 
@@ -161,7 +161,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Functional Correctness  
 - **Internal Name**: N/A  
 - **Maturity Level**: 2  
-- **Link**: [ContextLearning - Use Case 4](https://github.com/uDEVOPS2020/ContextLearning/tree/main/Use%20Case%204)
+- **Link**: [ContextLearning - Use Case 4](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Use%20Case%204)
 
 ---
 
@@ -172,7 +172,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Scope**: Fault Removal  
 - **Internal Name**: `uKnows`  
 - **Maturity Level**: 2  
-- **Link**: [MacroHive](https://github.com/uDEVOPS2020/MacroHive)
+- **Link**: [MacroHive](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive)
 
 ---
 
@@ -184,7 +184,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Reliability  
 - **Internal Name**: `Micro2vec`  
 - **Maturity Level**: 1  
-- **Link**: [MacroHive](https://github.com/uDEVOPS2020/MacroHive)
+- **Link**: [MacroHive](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive)
 
 ---
 
@@ -197,8 +197,8 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Name**: N/A  
 - **Maturity Level**: 2  
 - **Links**:  
-  - [Repo 1](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems)  
-  - [Repo 2](https://github.com/uDEVOPS2020/Anomaly-Detection-and-Root-Cause-Analysis-of-Microservices-Energy-Consumption)
+  - [Repo 1](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems)  
+  - [Repo 2](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Anomaly-Detection-and-Root-Cause-Analysis-of-Microservices-Energy-Consumption)
 
 ---
 
@@ -211,8 +211,8 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Name**: N/A  
 - **Maturity Level**: 2  
 - **Links**:  
-  - [Repo 1](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems)  
-  - [Repo 2](https://github.com/uDEVOPS2020/Anomaly-Detection-and-Root-Cause-Analysis-of-Microservices-Energy-Consumption)
+  - [Repo 1](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems)  
+  - [Repo 2](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Anomaly-Detection-and-Root-Cause-Analysis-of-Microservices-Energy-Consumption)
 
 
 ## Getting Started
