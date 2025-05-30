@@ -149,7 +149,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Functional Correctness  
 - **Internal Name**: `Learning-To-Rank`  
 - **Maturity Level**: 2  
-- **Link**: [ContextLearning - Use Case 1](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Use%20Case%201)
+- **Link**: [Learning-To-Rank](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Learning-To-Rank)
 
 ---
 
@@ -161,7 +161,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Functional Correctness  
 - **Internal Name**: N/A  
 - **Maturity Level**: 2  
-- **Link**: [ContextLearning - Use Case 4](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Use%20Case%204)
+- **Link**: [Defect-Prediction](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Defect-Prediction)
 
 ---
 
