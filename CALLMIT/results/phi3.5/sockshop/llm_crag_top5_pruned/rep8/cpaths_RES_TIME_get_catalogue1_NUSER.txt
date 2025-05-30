@@ -1,0 +1,2 @@
+NUSER->RES_TIME_login->RES_TIME_get_catalogue1
+

@@ -1,0 +1,40 @@
+==========Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 51
+- NUSER has to be greater than 4
+- LOAD has to be 'stress_cart' or 'stress_shop' or 'normal'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+NUSER -> RES_TIME_login -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+NUSER -> CPU_login -> REQ/s_get_catalogue1 -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+NUSER -> REQ/s_get_catalogue1 -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+NUSER -> CPU_login -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+NUSER -> RES_TIME_login -> REQ/s_get_catalogue1 -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+LOAD -> RES_TIME_login -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+LOAD -> RES_TIME_login -> REQ/s_get_catalogue1 -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+LOAD -> RES_TIME_login -> RES_TIME_get_catalogue1 -> CPU_get_catalogue1 -> RES_TIME_get_catalogue2
+LOAD -> RES_TIME_login -> REQ/s_get_catalogue1 -> RES_TIME_get_catalogue2
+LOAD -> RES_TIME_login -> CPU_get_catalogue1 -> RES_TIME_get_catalogue2
+SR -> CPU_login -> REQ/s_get_catalogue1 -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+SR -> CPU_login -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+SR -> CPU_login -> REQ/s_get_catalogue1 -> RES_TIME_get_catalogue2
+SR -> CPU_login -> CPU_get_catalogue1 -> RES_TIME_get_catalogue2
+SR -> REQ/s_get_catalogue1 -> RES_TIME_get_catalogue1 -> RES_TIME_get_catalogue2
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Question==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads RES_TIME_get_catalogue2 to exceed 98.40075286670245<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

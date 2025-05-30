@@ -1,0 +1,10 @@
+LOAD->RES_TIME_s1->REQ/s_s5->REQ/s_s2->REQ/s_s4->REQ/s_s3->REQ/s_s7->CPU_s7
+
+LOAD->REQ/s_s3->REQ/s_s7->CPU_s7
+
+LOAD->RES_TIME_s1->REQ/s_s4->REQ/s_s3->REQ/s_s7->CPU_s7
+
+LOAD->REQ/s_s5->REQ/s_s2->REQ/s_s4->REQ/s_s3->REQ/s_s7->CPU_s7
+
+LOAD->RES_TIME_s1->REQ/s_s5->REQ/s_s2->REQ/s_s1->CPU_s7
+

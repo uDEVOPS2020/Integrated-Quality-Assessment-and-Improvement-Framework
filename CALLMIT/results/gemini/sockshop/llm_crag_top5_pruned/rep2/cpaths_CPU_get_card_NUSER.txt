@@ -1,0 +1,4 @@
+NUSER->CPU_login->CPU_get_customer->CPU_get_card
+
+NUSER->CPU_login->CPU_get_card
+

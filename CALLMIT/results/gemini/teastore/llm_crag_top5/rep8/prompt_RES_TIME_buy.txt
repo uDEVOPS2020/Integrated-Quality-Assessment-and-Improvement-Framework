@@ -1,0 +1,40 @@
+==========System Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 31
+- NUSER has to be greater than 3
+- LOAD has to be 'normal' or 'stress_shop' or 'stress_cart'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+NUSER -> CPU_addToCart -> CPU_view_product -> REQ/s_category -> REQ/s_buy -> REQ/s_logout -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+NUSER -> CPU_addToCart -> CPU_view_product -> REQ/s_category -> REQ/s_logout -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+NUSER -> CPU_addToCart -> REQ/s_buy -> REQ/s_logout -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+NUSER -> CPU_addToCart -> CPU_buy -> RES_TIME_category -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+NUSER -> CPU_addToCart -> CPU_view_product -> REQ/s_category -> REQ/s_buy -> RES_TIME_category -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+LOAD -> REQ/s_buy -> REQ/s_logout -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+LOAD -> REQ/s_category -> REQ/s_buy -> REQ/s_logout -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+LOAD -> REQ/s_category -> REQ/s_logout -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+LOAD -> REQ/s_buy -> RES_TIME_category -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+LOAD -> RES_TIME_category -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+SR -> MEM_addToCart -> MEM_home -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+SR -> RES_TIME_category -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+SR -> RES_TIME_category -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+SR -> MEM_teastore-db -> REQ/s_login -> REQ/s_profile -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+SR -> MEM_addToCart -> MEM_home -> MEM_teastore-db -> REQ/s_login -> CPU_teastore-persistence -> REQ/s_home -> CPU_teastore-image -> RES_TIME_profile -> RES_TIME_login -> RES_TIME_login_page -> MEM_teastore-recommender -> MEM_teastore-persistence -> MEM_teastore-registry -> RES_TIME_home -> RES_TIME_buy
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Human==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads RES_TIME_buy to exceed 10.07815479006461<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

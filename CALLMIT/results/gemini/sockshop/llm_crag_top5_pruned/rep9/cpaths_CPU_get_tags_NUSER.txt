@@ -1,0 +1,4 @@
+NUSER->CPU_login->CPU_get_catalogue1->CPU_get_catalogue2->CPU_get_tags
+
+NUSER->CPU_get_catalogue1->CPU_get_catalogue2->CPU_get_tags
+

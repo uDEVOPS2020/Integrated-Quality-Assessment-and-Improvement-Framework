@@ -1,0 +1,4 @@
+SR->RES_TIME_logout->RES_TIME_login
+
+SR->RES_TIME_logout->RES_TIME_profile->RES_TIME_login
+

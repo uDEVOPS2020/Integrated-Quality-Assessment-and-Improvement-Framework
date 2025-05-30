@@ -1,0 +1,40 @@
+==========System Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 31
+- NUSER has to be greater than 3
+- LOAD has to be 'uniform' or 'unbalanced_one' or 'randomly_balanced'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+NUSER -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> CPU_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+NUSER -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> CPU_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s9 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+NUSER -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> MEM_s4 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+NUSER -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> MEM_s4 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s9 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+NUSER -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+LOAD -> RES_TIME_s9 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> CPU_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+LOAD -> RES_TIME_s9 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> CPU_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s9 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+LOAD -> RES_TIME_s9 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> MEM_s4 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+LOAD -> RES_TIME_s9 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> MEM_s4 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s9 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+LOAD -> RES_TIME_s9 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+SR -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> CPU_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+SR -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> CPU_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s9 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+SR -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> MEM_s4 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+SR -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> MEM_s4 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s9 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+SR -> CPU_s1 -> RES_TIME_s6 -> RES_TIME_s0 -> MEM_s0 -> RES_TIME_s5 -> MEM_s5 -> REQ/s_s4 -> CPU_s4 -> REQ/s_s3 -> REQ/s_s7 -> CPU_s7 -> CPU_s9
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Human==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads CPU_s9 to exceed 7.110680436460591<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

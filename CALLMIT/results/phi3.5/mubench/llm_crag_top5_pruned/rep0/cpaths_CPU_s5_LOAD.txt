@@ -1,0 +1,6 @@
+LOAD->RES_TIME_s1->REQ/s_s5->CPU_s5
+
+LOAD->RES_TIME_s1->CPU_s5
+
+LOAD->REQ/s_s5->CPU_s5
+

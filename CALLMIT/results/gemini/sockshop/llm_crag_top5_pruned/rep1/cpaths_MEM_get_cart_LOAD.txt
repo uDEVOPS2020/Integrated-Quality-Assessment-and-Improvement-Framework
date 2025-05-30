@@ -1,0 +1,10 @@
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_cart->CPU_get_cart->MEM_get_cart
+
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_tags->RES_TIME_get_cart->CPU_get_cart->MEM_get_cart
+
+LOAD->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_cart->CPU_get_cart->MEM_get_cart
+
+LOAD->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_tags->RES_TIME_get_cart->CPU_get_cart->MEM_get_cart
+
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->REQ/s_get_catalogue3->REQ/s_get_item->REQ/s_get_related->REQ/s_get_cart->CPU_get_cart->MEM_get_cart
+

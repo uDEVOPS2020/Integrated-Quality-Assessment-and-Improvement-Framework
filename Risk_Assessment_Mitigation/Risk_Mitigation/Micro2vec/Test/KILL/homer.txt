@@ -1,0 +1,648 @@
+27-11-2018 14:55:17.781 UTC INFO utils.py:310: Acquired exclusive lock on /var/run/homer.pid.lockfile
+27-11-2018 14:55:17.781 UTC INFO main.py:50: Going to listen for HTTP on UNIX socket /tmp/.homer-sock-0
+27-11-2018 15:00:10.406 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550935%40example.com/simservs.xml
+27-11-2018 15:00:10.407 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:10.440 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550935%40example.com/simservs.xml
+27-11-2018 15:00:13.385 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550272%40example.com/simservs.xml
+27-11-2018 15:00:13.388 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550272%40example.com/simservs.xml
+27-11-2018 15:00:14.339 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550196%40example.com/simservs.xml
+27-11-2018 15:00:14.342 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550196%40example.com/simservs.xml
+27-11-2018 15:00:17.033 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550006%40example.com/simservs.xml
+27-11-2018 15:00:17.033 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:17.035 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550006%40example.com/simservs.xml
+27-11-2018 15:00:20.046 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550851%40example.com/simservs.xml
+27-11-2018 15:00:20.049 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550851%40example.com/simservs.xml
+27-11-2018 15:00:20.871 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550174%40example.com/simservs.xml
+27-11-2018 15:00:20.874 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550174%40example.com/simservs.xml
+27-11-2018 15:00:23.595 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550746%40example.com/simservs.xml
+27-11-2018 15:00:23.595 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:23.598 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550746%40example.com/simservs.xml
+27-11-2018 15:00:26.576 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550447%40example.com/simservs.xml
+27-11-2018 15:00:26.579 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550447%40example.com/simservs.xml
+27-11-2018 15:00:27.419 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550303%40example.com/simservs.xml
+27-11-2018 15:00:27.422 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550303%40example.com/simservs.xml
+27-11-2018 15:00:30.074 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550028%40example.com/simservs.xml
+27-11-2018 15:00:30.075 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:30.078 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550028%40example.com/simservs.xml
+27-11-2018 15:00:32.923 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550103%40example.com/simservs.xml
+27-11-2018 15:00:32.925 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550103%40example.com/simservs.xml
+27-11-2018 15:00:33.735 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550694%40example.com/simservs.xml
+27-11-2018 15:00:33.737 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550694%40example.com/simservs.xml
+27-11-2018 15:00:36.377 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550370%40example.com/simservs.xml
+27-11-2018 15:00:36.378 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:36.381 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550370%40example.com/simservs.xml
+27-11-2018 15:00:39.236 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550530%40example.com/simservs.xml
+27-11-2018 15:00:39.238 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550530%40example.com/simservs.xml
+27-11-2018 15:00:40.052 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550068%40example.com/simservs.xml
+27-11-2018 15:00:40.055 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550068%40example.com/simservs.xml
+27-11-2018 15:00:42.649 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550787%40example.com/simservs.xml
+27-11-2018 15:00:42.649 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:42.655 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550787%40example.com/simservs.xml
+27-11-2018 15:00:44.891 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550979%40example.com/simservs.xml
+27-11-2018 15:00:44.891 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:44.893 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550979%40example.com/simservs.xml
+27-11-2018 15:00:47.129 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550881%40example.com/simservs.xml
+27-11-2018 15:00:47.130 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:47.132 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550881%40example.com/simservs.xml
+27-11-2018 15:00:49.346 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550916%40example.com/simservs.xml
+27-11-2018 15:00:49.347 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:49.349 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550916%40example.com/simservs.xml
+27-11-2018 15:00:51.597 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550960%40example.com/simservs.xml
+27-11-2018 15:00:51.597 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:51.599 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550960%40example.com/simservs.xml
+27-11-2018 15:00:51.600 UTC INFO base.py:190: Only handled 20 requests in the last 334.23 seconds, rate remains unchanged. Minimum threshold for change is 16711.342719
+27-11-2018 15:00:53.796 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550836%40example.com/simservs.xml
+27-11-2018 15:00:53.797 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:53.800 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550836%40example.com/simservs.xml
+27-11-2018 15:00:55.355 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550515%40example.com/simservs.xml
+27-11-2018 15:00:55.358 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550515%40example.com/simservs.xml
+27-11-2018 15:00:55.994 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550133%40example.com/simservs.xml
+27-11-2018 15:00:55.996 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550133%40example.com/simservs.xml
+27-11-2018 15:00:57.464 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550356%40example.com/simservs.xml
+27-11-2018 15:00:57.464 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:00:57.466 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550356%40example.com/simservs.xml
+27-11-2018 15:00:59.018 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550780%40example.com/simservs.xml
+27-11-2018 15:00:59.020 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550780%40example.com/simservs.xml
+27-11-2018 15:00:59.618 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550666%40example.com/simservs.xml
+27-11-2018 15:00:59.621 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550666%40example.com/simservs.xml
+27-11-2018 15:01:01.108 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550439%40example.com/simservs.xml
+27-11-2018 15:01:01.109 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:01.112 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550439%40example.com/simservs.xml
+27-11-2018 15:01:02.689 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550584%40example.com/simservs.xml
+27-11-2018 15:01:02.691 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550584%40example.com/simservs.xml
+27-11-2018 15:01:03.462 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550839%40example.com/simservs.xml
+27-11-2018 15:01:03.464 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550839%40example.com/simservs.xml
+27-11-2018 15:01:05.019 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550003%40example.com/simservs.xml
+27-11-2018 15:01:05.020 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:05.026 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550003%40example.com/simservs.xml
+27-11-2018 15:01:06.846 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550987%40example.com/simservs.xml
+27-11-2018 15:01:06.849 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550987%40example.com/simservs.xml
+27-11-2018 15:01:07.608 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550421%40example.com/simservs.xml
+27-11-2018 15:01:07.611 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550421%40example.com/simservs.xml
+27-11-2018 15:01:09.176 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550606%40example.com/simservs.xml
+27-11-2018 15:01:09.176 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:09.180 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550606%40example.com/simservs.xml
+27-11-2018 15:01:10.984 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550729%40example.com/simservs.xml
+27-11-2018 15:01:10.986 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550729%40example.com/simservs.xml
+27-11-2018 15:01:11.747 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550896%40example.com/simservs.xml
+27-11-2018 15:01:11.749 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550896%40example.com/simservs.xml
+27-11-2018 15:01:13.317 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550054%40example.com/simservs.xml
+27-11-2018 15:01:13.317 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:13.320 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550054%40example.com/simservs.xml
+27-11-2018 15:01:15.508 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550906%40example.com/simservs.xml
+27-11-2018 15:01:15.509 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:15.512 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550906%40example.com/simservs.xml
+27-11-2018 15:01:17.664 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550925%40example.com/simservs.xml
+27-11-2018 15:01:17.665 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:17.667 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550925%40example.com/simservs.xml
+27-11-2018 15:01:19.829 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550674%40example.com/simservs.xml
+27-11-2018 15:01:19.830 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:19.832 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550674%40example.com/simservs.xml
+27-11-2018 15:01:21.993 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550451%40example.com/simservs.xml
+27-11-2018 15:01:21.994 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:21.996 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550451%40example.com/simservs.xml
+27-11-2018 15:01:21.996 UTC INFO base.py:190: Only handled 20 requests in the last 30.40 seconds, rate remains unchanged. Minimum threshold for change is 1519.815198
+27-11-2018 15:01:24.145 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550302%40example.com/simservs.xml
+27-11-2018 15:01:24.145 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:24.147 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550302%40example.com/simservs.xml
+27-11-2018 15:01:27.042 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550673%40example.com/simservs.xml
+27-11-2018 15:01:27.044 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550673%40example.com/simservs.xml
+27-11-2018 15:01:27.782 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550853%40example.com/simservs.xml
+27-11-2018 15:01:27.784 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550853%40example.com/simservs.xml
+27-11-2018 15:01:30.357 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550208%40example.com/simservs.xml
+27-11-2018 15:01:30.357 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:30.359 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550208%40example.com/simservs.xml
+27-11-2018 15:01:33.257 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550972%40example.com/simservs.xml
+27-11-2018 15:01:33.260 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550972%40example.com/simservs.xml
+27-11-2018 15:01:34.006 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550215%40example.com/simservs.xml
+27-11-2018 15:01:34.008 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550215%40example.com/simservs.xml
+27-11-2018 15:01:36.652 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550756%40example.com/simservs.xml
+27-11-2018 15:01:36.652 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:36.654 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550756%40example.com/simservs.xml
+27-11-2018 15:01:39.537 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550562%40example.com/simservs.xml
+27-11-2018 15:01:39.540 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550562%40example.com/simservs.xml
+27-11-2018 15:01:41.139 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550291%40example.com/simservs.xml
+27-11-2018 15:01:41.139 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:41.142 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550291%40example.com/simservs.xml
+27-11-2018 15:01:43.891 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550107%40example.com/simservs.xml
+27-11-2018 15:01:43.891 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:43.893 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550107%40example.com/simservs.xml
+27-11-2018 15:01:46.690 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550040%40example.com/simservs.xml
+27-11-2018 15:01:46.691 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:46.693 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550040%40example.com/simservs.xml
+27-11-2018 15:01:48.331 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550107%40example.com/simservs.xml
+27-11-2018 15:01:48.332 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:48.334 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550107%40example.com/simservs.xml
+27-11-2018 15:01:49.988 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550628%40example.com/simservs.xml
+27-11-2018 15:01:49.988 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:49.990 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550628%40example.com/simservs.xml
+27-11-2018 15:01:51.645 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550126%40example.com/simservs.xml
+27-11-2018 15:01:51.646 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:51.648 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550126%40example.com/simservs.xml
+27-11-2018 15:01:53.276 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550620%40example.com/simservs.xml
+27-11-2018 15:01:53.277 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:53.280 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550620%40example.com/simservs.xml
+27-11-2018 15:01:54.918 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550767%40example.com/simservs.xml
+27-11-2018 15:01:54.919 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:54.921 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550767%40example.com/simservs.xml
+27-11-2018 15:01:56.676 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550834%40example.com/simservs.xml
+27-11-2018 15:01:56.678 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550834%40example.com/simservs.xml
+27-11-2018 15:01:57.094 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550847%40example.com/simservs.xml
+27-11-2018 15:01:57.095 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:57.097 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550847%40example.com/simservs.xml
+27-11-2018 15:01:58.907 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550554%40example.com/simservs.xml
+27-11-2018 15:01:58.907 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:01:58.910 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550554%40example.com/simservs.xml
+27-11-2018 15:02:00.676 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550483%40example.com/simservs.xml
+27-11-2018 15:02:00.678 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550483%40example.com/simservs.xml
+27-11-2018 15:02:00.678 UTC INFO base.py:190: Only handled 20 requests in the last 38.68 seconds, rate remains unchanged. Minimum threshold for change is 1934.089215
+27-11-2018 15:02:01.106 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550451%40example.com/simservs.xml
+27-11-2018 15:02:01.107 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:01.109 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550451%40example.com/simservs.xml
+27-11-2018 15:02:02.931 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550989%40example.com/simservs.xml
+27-11-2018 15:02:02.931 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:02.933 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550989%40example.com/simservs.xml
+27-11-2018 15:02:04.698 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550350%40example.com/simservs.xml
+27-11-2018 15:02:04.700 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550350%40example.com/simservs.xml
+27-11-2018 15:02:05.100 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550201%40example.com/simservs.xml
+27-11-2018 15:02:05.100 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:05.103 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550201%40example.com/simservs.xml
+27-11-2018 15:02:06.787 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550139%40example.com/simservs.xml
+27-11-2018 15:02:06.789 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550139%40example.com/simservs.xml
+27-11-2018 15:02:07.417 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550715%40example.com/simservs.xml
+27-11-2018 15:02:07.419 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550715%40example.com/simservs.xml
+27-11-2018 15:02:08.930 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550017%40example.com/simservs.xml
+27-11-2018 15:02:08.931 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:08.933 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550017%40example.com/simservs.xml
+27-11-2018 15:02:09.414 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550645%40example.com/simservs.xml
+27-11-2018 15:02:09.416 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550645%40example.com/simservs.xml
+27-11-2018 15:02:11.069 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550392%40example.com/simservs.xml
+27-11-2018 15:02:11.070 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:11.072 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550392%40example.com/simservs.xml
+27-11-2018 15:02:12.709 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550392%40example.com/simservs.xml
+27-11-2018 15:02:12.711 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550392%40example.com/simservs.xml
+27-11-2018 15:02:13.080 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550258%40example.com/simservs.xml
+27-11-2018 15:02:13.080 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:13.082 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550258%40example.com/simservs.xml
+27-11-2018 15:02:13.426 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550258%40example.com/simservs.xml
+27-11-2018 15:02:13.428 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550258%40example.com/simservs.xml
+27-11-2018 15:02:14.927 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550611%40example.com/simservs.xml
+27-11-2018 15:02:14.927 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:14.929 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550611%40example.com/simservs.xml
+27-11-2018 15:02:15.539 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550611%40example.com/simservs.xml
+27-11-2018 15:02:15.540 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550611%40example.com/simservs.xml
+27-11-2018 15:02:16.925 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550401%40example.com/simservs.xml
+27-11-2018 15:02:16.928 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550401%40example.com/simservs.xml
+27-11-2018 15:02:17.403 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550401%40example.com/simservs.xml
+27-11-2018 15:02:17.403 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:17.405 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550401%40example.com/simservs.xml
+27-11-2018 15:02:17.997 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550401%40example.com/simservs.xml
+27-11-2018 15:02:17.999 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550401%40example.com/simservs.xml
+27-11-2018 15:02:19.484 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550401%40example.com/simservs.xml
+27-11-2018 15:02:19.486 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550401%40example.com/simservs.xml
+27-11-2018 15:02:20.031 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550938%40example.com/simservs.xml
+27-11-2018 15:02:20.031 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:20.032 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550938%40example.com/simservs.xml
+27-11-2018 15:02:20.370 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550916%40example.com/simservs.xml
+27-11-2018 15:02:20.371 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550916%40example.com/simservs.xml
+27-11-2018 15:02:20.372 UTC INFO base.py:190: Only handled 20 requests in the last 19.69 seconds, rate remains unchanged. Minimum threshold for change is 984.668335
+27-11-2018 15:02:21.933 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550132%40example.com/simservs.xml
+27-11-2018 15:02:21.936 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550132%40example.com/simservs.xml
+27-11-2018 15:02:22.335 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550624%40example.com/simservs.xml
+27-11-2018 15:02:22.335 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:22.337 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550624%40example.com/simservs.xml
+27-11-2018 15:02:22.654 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550826%40example.com/simservs.xml
+27-11-2018 15:02:22.656 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550826%40example.com/simservs.xml
+27-11-2018 15:02:24.396 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550902%40example.com/simservs.xml
+27-11-2018 15:02:24.396 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:24.399 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550902%40example.com/simservs.xml
+27-11-2018 15:02:24.990 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550902%40example.com/simservs.xml
+27-11-2018 15:02:24.992 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550902%40example.com/simservs.xml
+27-11-2018 15:02:26.376 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550339%40example.com/simservs.xml
+27-11-2018 15:02:26.379 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550339%40example.com/simservs.xml
+27-11-2018 15:02:26.829 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550329%40example.com/simservs.xml
+27-11-2018 15:02:26.829 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:26.831 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550329%40example.com/simservs.xml
+27-11-2018 15:02:27.305 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550329%40example.com/simservs.xml
+27-11-2018 15:02:27.308 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550329%40example.com/simservs.xml
+27-11-2018 15:02:28.803 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550329%40example.com/simservs.xml
+27-11-2018 15:02:28.805 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550329%40example.com/simservs.xml
+27-11-2018 15:02:29.343 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550970%40example.com/simservs.xml
+27-11-2018 15:02:29.343 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:29.345 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550970%40example.com/simservs.xml
+27-11-2018 15:02:29.695 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550841%40example.com/simservs.xml
+27-11-2018 15:02:29.696 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550841%40example.com/simservs.xml
+27-11-2018 15:02:31.253 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550523%40example.com/simservs.xml
+27-11-2018 15:02:31.255 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550523%40example.com/simservs.xml
+27-11-2018 15:02:31.685 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550665%40example.com/simservs.xml
+27-11-2018 15:02:31.685 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:31.688 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550665%40example.com/simservs.xml
+27-11-2018 15:02:32.005 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550301%40example.com/simservs.xml
+27-11-2018 15:02:32.007 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550301%40example.com/simservs.xml
+27-11-2018 15:02:33.674 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550907%40example.com/simservs.xml
+27-11-2018 15:02:33.674 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:33.677 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550907%40example.com/simservs.xml
+27-11-2018 15:02:34.272 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550907%40example.com/simservs.xml
+27-11-2018 15:02:34.274 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550907%40example.com/simservs.xml
+27-11-2018 15:02:35.655 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550169%40example.com/simservs.xml
+27-11-2018 15:02:35.657 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550169%40example.com/simservs.xml
+27-11-2018 15:02:36.121 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550171%40example.com/simservs.xml
+27-11-2018 15:02:36.122 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:36.123 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550171%40example.com/simservs.xml
+27-11-2018 15:02:36.632 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550171%40example.com/simservs.xml
+27-11-2018 15:02:36.633 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550171%40example.com/simservs.xml
+27-11-2018 15:02:38.102 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550171%40example.com/simservs.xml
+27-11-2018 15:02:38.104 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550171%40example.com/simservs.xml
+27-11-2018 15:02:38.104 UTC INFO base.py:190: Only handled 20 requests in the last 17.73 seconds, rate remains unchanged. Minimum threshold for change is 886.619087
+27-11-2018 15:02:38.598 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550894%40example.com/simservs.xml
+27-11-2018 15:02:38.599 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:38.601 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550894%40example.com/simservs.xml
+27-11-2018 15:02:39.138 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550541%40example.com/simservs.xml
+27-11-2018 15:02:39.141 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550541%40example.com/simservs.xml
+27-11-2018 15:02:40.699 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550103%40example.com/simservs.xml
+27-11-2018 15:02:40.701 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550103%40example.com/simservs.xml
+27-11-2018 15:02:41.136 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550029%40example.com/simservs.xml
+27-11-2018 15:02:41.136 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:41.138 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550029%40example.com/simservs.xml
+27-11-2018 15:02:41.741 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550977%40example.com/simservs.xml
+27-11-2018 15:02:41.743 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550977%40example.com/simservs.xml
+27-11-2018 15:02:43.433 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550938%40example.com/simservs.xml
+27-11-2018 15:02:43.433 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:43.436 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550938%40example.com/simservs.xml
+27-11-2018 15:02:44.185 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550938%40example.com/simservs.xml
+27-11-2018 15:02:44.187 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550938%40example.com/simservs.xml
+27-11-2018 15:02:45.768 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550521%40example.com/simservs.xml
+27-11-2018 15:02:45.770 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550521%40example.com/simservs.xml
+27-11-2018 15:02:46.216 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550831%40example.com/simservs.xml
+27-11-2018 15:02:46.216 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:46.218 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550831%40example.com/simservs.xml
+27-11-2018 15:02:46.778 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550831%40example.com/simservs.xml
+27-11-2018 15:02:46.780 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550831%40example.com/simservs.xml
+27-11-2018 15:02:48.341 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550831%40example.com/simservs.xml
+27-11-2018 15:02:48.343 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550831%40example.com/simservs.xml
+27-11-2018 15:02:48.812 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550204%40example.com/simservs.xml
+27-11-2018 15:02:48.812 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:48.814 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550204%40example.com/simservs.xml
+27-11-2018 15:02:49.466 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550537%40example.com/simservs.xml
+27-11-2018 15:02:49.468 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550537%40example.com/simservs.xml
+27-11-2018 15:02:51.022 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550240%40example.com/simservs.xml
+27-11-2018 15:02:51.023 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550240%40example.com/simservs.xml
+27-11-2018 15:02:51.453 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550888%40example.com/simservs.xml
+27-11-2018 15:02:51.454 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:51.456 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550888%40example.com/simservs.xml
+27-11-2018 15:02:51.977 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550334%40example.com/simservs.xml
+27-11-2018 15:02:51.978 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550334%40example.com/simservs.xml
+27-11-2018 15:02:53.330 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550334%40example.com/simservs.xml
+27-11-2018 15:02:53.331 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550334%40example.com/simservs.xml
+27-11-2018 15:02:53.764 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550096%40example.com/simservs.xml
+27-11-2018 15:02:53.764 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:53.766 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550096%40example.com/simservs.xml
+27-11-2018 15:02:54.453 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550801%40example.com/simservs.xml
+27-11-2018 15:02:54.454 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550801%40example.com/simservs.xml
+27-11-2018 15:02:55.895 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550096%40example.com/simservs.xml
+27-11-2018 15:02:55.897 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550096%40example.com/simservs.xml
+27-11-2018 15:02:55.898 UTC INFO base.py:190: Only handled 20 requests in the last 17.79 seconds, rate remains unchanged. Minimum threshold for change is 889.671788
+27-11-2018 15:02:56.338 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550606%40example.com/simservs.xml
+27-11-2018 15:02:56.338 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:56.340 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550606%40example.com/simservs.xml
+27-11-2018 15:02:56.904 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550606%40example.com/simservs.xml
+27-11-2018 15:02:56.906 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550606%40example.com/simservs.xml
+27-11-2018 15:02:58.402 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550773%40example.com/simservs.xml
+27-11-2018 15:02:58.404 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550773%40example.com/simservs.xml
+27-11-2018 15:02:58.779 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550525%40example.com/simservs.xml
+27-11-2018 15:02:58.779 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:02:58.781 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550525%40example.com/simservs.xml
+27-11-2018 15:02:59.313 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550288%40example.com/simservs.xml
+27-11-2018 15:02:59.314 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550288%40example.com/simservs.xml
+27-11-2018 15:03:00.992 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550818%40example.com/simservs.xml
+27-11-2018 15:03:00.992 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:00.994 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550818%40example.com/simservs.xml
+27-11-2018 15:03:01.840 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550109%40example.com/simservs.xml
+27-11-2018 15:03:01.843 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550109%40example.com/simservs.xml
+27-11-2018 15:03:03.179 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550109%40example.com/simservs.xml
+27-11-2018 15:03:03.181 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550109%40example.com/simservs.xml
+27-11-2018 15:03:03.614 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550903%40example.com/simservs.xml
+27-11-2018 15:03:03.614 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:03.616 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550903%40example.com/simservs.xml
+27-11-2018 15:03:04.300 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550222%40example.com/simservs.xml
+27-11-2018 15:03:04.302 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550222%40example.com/simservs.xml
+27-11-2018 15:03:05.748 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550903%40example.com/simservs.xml
+27-11-2018 15:03:05.750 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550903%40example.com/simservs.xml
+27-11-2018 15:03:06.223 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550520%40example.com/simservs.xml
+27-11-2018 15:03:06.223 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:06.226 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550520%40example.com/simservs.xml
+27-11-2018 15:03:06.785 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550520%40example.com/simservs.xml
+27-11-2018 15:03:06.786 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550520%40example.com/simservs.xml
+27-11-2018 15:03:08.318 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550312%40example.com/simservs.xml
+27-11-2018 15:03:08.319 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550312%40example.com/simservs.xml
+27-11-2018 15:03:08.757 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550514%40example.com/simservs.xml
+27-11-2018 15:03:08.758 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:08.760 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550514%40example.com/simservs.xml
+27-11-2018 15:03:09.357 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550854%40example.com/simservs.xml
+27-11-2018 15:03:09.359 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550854%40example.com/simservs.xml
+27-11-2018 15:03:11.025 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550914%40example.com/simservs.xml
+27-11-2018 15:03:11.025 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:11.028 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550914%40example.com/simservs.xml
+27-11-2018 15:03:11.837 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550388%40example.com/simservs.xml
+27-11-2018 15:03:11.839 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550388%40example.com/simservs.xml
+27-11-2018 15:03:13.194 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550388%40example.com/simservs.xml
+27-11-2018 15:03:13.196 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550388%40example.com/simservs.xml
+27-11-2018 15:03:13.632 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550611%40example.com/simservs.xml
+27-11-2018 15:03:13.632 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:13.634 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550611%40example.com/simservs.xml
+27-11-2018 15:03:13.634 UTC INFO base.py:190: Only handled 20 requests in the last 17.74 seconds, rate remains unchanged. Minimum threshold for change is 886.816372
+27-11-2018 15:03:14.317 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550700%40example.com/simservs.xml
+27-11-2018 15:03:14.318 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550700%40example.com/simservs.xml
+27-11-2018 15:03:15.761 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550611%40example.com/simservs.xml
+27-11-2018 15:03:15.763 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550611%40example.com/simservs.xml
+27-11-2018 15:03:16.251 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550560%40example.com/simservs.xml
+27-11-2018 15:03:16.251 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:16.253 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550560%40example.com/simservs.xml
+27-11-2018 15:03:16.805 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550560%40example.com/simservs.xml
+27-11-2018 15:03:16.807 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550560%40example.com/simservs.xml
+27-11-2018 15:03:18.340 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550642%40example.com/simservs.xml
+27-11-2018 15:03:18.343 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550642%40example.com/simservs.xml
+27-11-2018 15:03:18.731 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550469%40example.com/simservs.xml
+27-11-2018 15:03:18.731 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:18.733 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550469%40example.com/simservs.xml
+27-11-2018 15:03:19.260 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550855%40example.com/simservs.xml
+27-11-2018 15:03:19.262 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550855%40example.com/simservs.xml
+27-11-2018 15:03:20.922 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550764%40example.com/simservs.xml
+27-11-2018 15:03:20.922 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:20.924 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550764%40example.com/simservs.xml
+27-11-2018 15:03:21.744 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550788%40example.com/simservs.xml
+27-11-2018 15:03:21.746 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550788%40example.com/simservs.xml
+27-11-2018 15:03:23.100 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550788%40example.com/simservs.xml
+27-11-2018 15:03:23.102 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550788%40example.com/simservs.xml
+27-11-2018 15:03:23.559 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550828%40example.com/simservs.xml
+27-11-2018 15:03:23.560 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:23.562 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550828%40example.com/simservs.xml
+27-11-2018 15:03:24.345 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550992%40example.com/simservs.xml
+27-11-2018 15:03:24.347 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550992%40example.com/simservs.xml
+27-11-2018 15:03:25.788 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550828%40example.com/simservs.xml
+27-11-2018 15:03:25.790 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550828%40example.com/simservs.xml
+27-11-2018 15:03:26.384 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550109%40example.com/simservs.xml
+27-11-2018 15:03:26.384 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:26.386 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550109%40example.com/simservs.xml
+27-11-2018 15:03:26.936 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550109%40example.com/simservs.xml
+27-11-2018 15:03:26.938 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550109%40example.com/simservs.xml
+27-11-2018 15:03:28.484 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550029%40example.com/simservs.xml
+27-11-2018 15:03:28.485 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550029%40example.com/simservs.xml
+27-11-2018 15:03:28.902 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550070%40example.com/simservs.xml
+27-11-2018 15:03:28.903 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:28.905 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550070%40example.com/simservs.xml
+27-11-2018 15:03:29.319 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550893%40example.com/simservs.xml
+27-11-2018 15:03:29.321 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550893%40example.com/simservs.xml
+27-11-2018 15:03:31.073 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550697%40example.com/simservs.xml
+27-11-2018 15:03:31.073 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:31.075 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550697%40example.com/simservs.xml
+27-11-2018 15:03:31.783 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550660%40example.com/simservs.xml
+27-11-2018 15:03:31.784 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550660%40example.com/simservs.xml
+27-11-2018 15:03:31.785 UTC INFO base.py:190: Only handled 20 requests in the last 18.15 seconds, rate remains unchanged. Minimum threshold for change is 907.510856
+27-11-2018 15:03:33.144 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550660%40example.com/simservs.xml
+27-11-2018 15:03:33.146 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550660%40example.com/simservs.xml
+27-11-2018 15:03:33.611 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550362%40example.com/simservs.xml
+27-11-2018 15:03:33.611 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:33.613 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550362%40example.com/simservs.xml
+27-11-2018 15:03:34.186 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550729%40example.com/simservs.xml
+27-11-2018 15:03:34.189 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550729%40example.com/simservs.xml
+27-11-2018 15:03:35.643 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550362%40example.com/simservs.xml
+27-11-2018 15:03:35.645 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550362%40example.com/simservs.xml
+27-11-2018 15:03:36.121 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550023%40example.com/simservs.xml
+27-11-2018 15:03:36.121 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:36.124 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550023%40example.com/simservs.xml
+27-11-2018 15:03:38.025 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550479%40example.com/simservs.xml
+27-11-2018 15:03:38.026 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550479%40example.com/simservs.xml
+27-11-2018 15:03:38.514 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550266%40example.com/simservs.xml
+27-11-2018 15:03:38.515 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:38.517 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550266%40example.com/simservs.xml
+27-11-2018 15:03:38.961 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550732%40example.com/simservs.xml
+27-11-2018 15:03:38.962 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550732%40example.com/simservs.xml
+27-11-2018 15:03:40.631 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550040%40example.com/simservs.xml
+27-11-2018 15:03:40.634 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550040%40example.com/simservs.xml
+27-11-2018 15:03:41.033 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550231%40example.com/simservs.xml
+27-11-2018 15:03:41.033 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:41.035 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550231%40example.com/simservs.xml
+27-11-2018 15:03:41.562 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550986%40example.com/simservs.xml
+27-11-2018 15:03:41.564 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550986%40example.com/simservs.xml
+27-11-2018 15:03:43.238 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550416%40example.com/simservs.xml
+27-11-2018 15:03:43.238 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:43.239 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550416%40example.com/simservs.xml
+27-11-2018 15:03:43.959 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550416%40example.com/simservs.xml
+27-11-2018 15:03:43.961 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550416%40example.com/simservs.xml
+27-11-2018 15:03:45.341 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550458%40example.com/simservs.xml
+27-11-2018 15:03:45.343 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550458%40example.com/simservs.xml
+27-11-2018 15:03:45.832 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550911%40example.com/simservs.xml
+27-11-2018 15:03:45.832 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:45.834 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550911%40example.com/simservs.xml
+27-11-2018 15:03:46.500 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550911%40example.com/simservs.xml
+27-11-2018 15:03:46.502 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550911%40example.com/simservs.xml
+27-11-2018 15:03:47.984 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550911%40example.com/simservs.xml
+27-11-2018 15:03:47.986 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550911%40example.com/simservs.xml
+27-11-2018 15:03:48.449 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550472%40example.com/simservs.xml
+27-11-2018 15:03:48.449 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:48.451 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550472%40example.com/simservs.xml
+27-11-2018 15:03:49.008 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550701%40example.com/simservs.xml
+27-11-2018 15:03:49.010 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550701%40example.com/simservs.xml
+27-11-2018 15:03:50.545 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550503%40example.com/simservs.xml
+27-11-2018 15:03:50.546 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550503%40example.com/simservs.xml
+27-11-2018 15:03:50.546 UTC INFO base.py:190: Only handled 20 requests in the last 18.76 seconds, rate remains unchanged. Minimum threshold for change is 938.084776
+27-11-2018 15:03:50.955 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550936%40example.com/simservs.xml
+27-11-2018 15:03:50.956 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:50.958 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550936%40example.com/simservs.xml
+27-11-2018 15:03:51.499 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550040%40example.com/simservs.xml
+27-11-2018 15:03:51.500 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550040%40example.com/simservs.xml
+27-11-2018 15:03:53.139 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550465%40example.com/simservs.xml
+27-11-2018 15:03:53.139 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:53.141 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550465%40example.com/simservs.xml
+27-11-2018 15:03:53.480 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550569%40example.com/simservs.xml
+27-11-2018 15:03:53.482 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550569%40example.com/simservs.xml
+27-11-2018 15:03:54.982 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550683%40example.com/simservs.xml
+27-11-2018 15:03:54.982 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:54.984 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550683%40example.com/simservs.xml
+27-11-2018 15:03:56.376 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550683%40example.com/simservs.xml
+27-11-2018 15:03:56.379 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550683%40example.com/simservs.xml
+27-11-2018 15:03:56.753 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550261%40example.com/simservs.xml
+27-11-2018 15:03:56.753 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:03:56.755 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550261%40example.com/simservs.xml
+27-11-2018 15:03:58.203 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550669%40example.com/simservs.xml
+27-11-2018 15:03:58.205 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550669%40example.com/simservs.xml
+27-11-2018 15:03:58.656 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550608%40example.com/simservs.xml
+27-11-2018 15:03:58.658 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550608%40example.com/simservs.xml
+27-11-2018 15:04:00.072 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550932%40example.com/simservs.xml
+27-11-2018 15:04:00.072 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:00.074 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550932%40example.com/simservs.xml
+27-11-2018 15:04:00.420 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550056%40example.com/simservs.xml
+27-11-2018 15:04:00.422 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550056%40example.com/simservs.xml
+27-11-2018 15:04:01.956 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550578%40example.com/simservs.xml
+27-11-2018 15:04:01.957 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:01.964 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550578%40example.com/simservs.xml
+27-11-2018 15:04:02.741 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550314%40example.com/simservs.xml
+27-11-2018 15:04:02.743 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550314%40example.com/simservs.xml
+27-11-2018 15:04:04.238 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550553%40example.com/simservs.xml
+27-11-2018 15:04:04.240 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550553%40example.com/simservs.xml
+27-11-2018 15:04:04.649 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550591%40example.com/simservs.xml
+27-11-2018 15:04:04.649 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:04.651 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550591%40example.com/simservs.xml
+27-11-2018 15:04:05.059 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550490%40example.com/simservs.xml
+27-11-2018 15:04:05.060 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:05.062 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550490%40example.com/simservs.xml
+27-11-2018 15:04:05.578 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550718%40example.com/simservs.xml
+27-11-2018 15:04:05.580 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550718%40example.com/simservs.xml
+27-11-2018 15:04:07.413 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550591%40example.com/simservs.xml
+27-11-2018 15:04:07.416 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550591%40example.com/simservs.xml
+27-11-2018 15:04:07.916 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550507%40example.com/simservs.xml
+27-11-2018 15:04:07.917 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:07.918 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550507%40example.com/simservs.xml
+27-11-2018 15:04:08.464 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550473%40example.com/simservs.xml
+27-11-2018 15:04:08.465 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550473%40example.com/simservs.xml
+27-11-2018 15:04:08.466 UTC INFO base.py:190: Only handled 20 requests in the last 17.92 seconds, rate remains unchanged. Minimum threshold for change is 895.951334
+27-11-2018 15:04:10.124 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550473%40example.com/simservs.xml
+27-11-2018 15:04:10.126 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550473%40example.com/simservs.xml
+27-11-2018 15:04:10.587 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550990%40example.com/simservs.xml
+27-11-2018 15:04:10.588 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:10.589 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550990%40example.com/simservs.xml
+27-11-2018 15:04:11.352 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550232%40example.com/simservs.xml
+27-11-2018 15:04:11.354 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550232%40example.com/simservs.xml
+27-11-2018 15:04:12.928 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550990%40example.com/simservs.xml
+27-11-2018 15:04:12.930 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550990%40example.com/simservs.xml
+27-11-2018 15:04:13.350 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550246%40example.com/simservs.xml
+27-11-2018 15:04:13.350 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:13.352 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550246%40example.com/simservs.xml
+27-11-2018 15:04:14.246 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550996%40example.com/simservs.xml
+27-11-2018 15:04:14.248 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550996%40example.com/simservs.xml
+27-11-2018 15:04:15.743 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550110%40example.com/simservs.xml
+27-11-2018 15:04:15.745 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550110%40example.com/simservs.xml
+27-11-2018 15:04:16.160 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550958%40example.com/simservs.xml
+27-11-2018 15:04:16.160 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:16.162 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550958%40example.com/simservs.xml
+27-11-2018 15:04:16.580 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550008%40example.com/simservs.xml
+27-11-2018 15:04:16.580 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:16.582 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550008%40example.com/simservs.xml
+27-11-2018 15:04:17.197 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550147%40example.com/simservs.xml
+27-11-2018 15:04:17.199 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550147%40example.com/simservs.xml
+27-11-2018 15:04:19.024 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550958%40example.com/simservs.xml
+27-11-2018 15:04:19.027 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550958%40example.com/simservs.xml
+27-11-2018 15:04:19.561 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550522%40example.com/simservs.xml
+27-11-2018 15:04:19.561 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:19.563 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550522%40example.com/simservs.xml
+27-11-2018 15:04:20.205 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550710%40example.com/simservs.xml
+27-11-2018 15:04:20.207 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550710%40example.com/simservs.xml
+27-11-2018 15:04:21.940 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550710%40example.com/simservs.xml
+27-11-2018 15:04:21.942 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550710%40example.com/simservs.xml
+27-11-2018 15:04:22.372 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550866%40example.com/simservs.xml
+27-11-2018 15:04:22.372 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:22.374 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550866%40example.com/simservs.xml
+27-11-2018 15:04:23.021 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550845%40example.com/simservs.xml
+27-11-2018 15:04:23.023 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550845%40example.com/simservs.xml
+27-11-2018 15:04:24.684 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550866%40example.com/simservs.xml
+27-11-2018 15:04:24.687 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550866%40example.com/simservs.xml
+27-11-2018 15:04:25.139 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550466%40example.com/simservs.xml
+27-11-2018 15:04:25.139 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:25.141 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550466%40example.com/simservs.xml
+27-11-2018 15:04:25.916 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550995%40example.com/simservs.xml
+27-11-2018 15:04:25.918 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550995%40example.com/simservs.xml
+27-11-2018 15:04:27.499 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550604%40example.com/simservs.xml
+27-11-2018 15:04:27.500 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550604%40example.com/simservs.xml
+27-11-2018 15:04:27.501 UTC INFO base.py:190: Only handled 20 requests in the last 19.03 seconds, rate remains unchanged. Minimum threshold for change is 951.739627
+27-11-2018 15:04:27.887 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550490%40example.com/simservs.xml
+27-11-2018 15:04:27.888 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:27.889 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550490%40example.com/simservs.xml
+27-11-2018 15:04:28.290 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550803%40example.com/simservs.xml
+27-11-2018 15:04:28.290 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:28.292 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550803%40example.com/simservs.xml
+27-11-2018 15:04:28.808 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550707%40example.com/simservs.xml
+27-11-2018 15:04:28.810 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550707%40example.com/simservs.xml
+27-11-2018 15:04:30.743 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550490%40example.com/simservs.xml
+27-11-2018 15:04:30.746 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550490%40example.com/simservs.xml
+27-11-2018 15:04:31.545 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550504%40example.com/simservs.xml
+27-11-2018 15:04:31.547 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550504%40example.com/simservs.xml
+27-11-2018 15:04:33.018 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550929%40example.com/simservs.xml
+27-11-2018 15:04:33.020 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550929%40example.com/simservs.xml
+27-11-2018 15:04:33.443 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550984%40example.com/simservs.xml
+27-11-2018 15:04:33.443 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:33.445 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550984%40example.com/simservs.xml
+27-11-2018 15:04:34.378 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550033%40example.com/simservs.xml
+27-11-2018 15:04:34.380 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550033%40example.com/simservs.xml
+27-11-2018 15:04:35.749 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550097%40example.com/simservs.xml
+27-11-2018 15:04:35.752 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550097%40example.com/simservs.xml
+27-11-2018 15:04:36.918 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550162%40example.com/simservs.xml
+27-11-2018 15:04:36.919 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550162%40example.com/simservs.xml
+27-11-2018 15:04:38.295 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550277%40example.com/simservs.xml
+27-11-2018 15:04:38.297 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550277%40example.com/simservs.xml
+27-11-2018 15:04:38.693 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550030%40example.com/simservs.xml
+27-11-2018 15:04:38.693 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:38.695 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550030%40example.com/simservs.xml
+27-11-2018 15:04:39.530 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550080%40example.com/simservs.xml
+27-11-2018 15:04:39.532 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550080%40example.com/simservs.xml
+27-11-2018 15:04:40.901 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550991%40example.com/simservs.xml
+27-11-2018 15:04:40.903 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550991%40example.com/simservs.xml
+27-11-2018 15:04:41.815 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550657%40example.com/simservs.xml
+27-11-2018 15:04:41.817 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550657%40example.com/simservs.xml
+27-11-2018 15:04:43.297 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550936%40example.com/simservs.xml
+27-11-2018 15:04:43.299 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550936%40example.com/simservs.xml
+27-11-2018 15:04:43.713 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550096%40example.com/simservs.xml
+27-11-2018 15:04:43.713 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:43.715 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550096%40example.com/simservs.xml
+27-11-2018 15:04:44.553 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550605%40example.com/simservs.xml
+27-11-2018 15:04:44.555 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550605%40example.com/simservs.xml
+27-11-2018 15:04:45.858 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550196%40example.com/simservs.xml
+27-11-2018 15:04:45.860 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550196%40example.com/simservs.xml
+27-11-2018 15:04:46.659 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550139%40example.com/simservs.xml
+27-11-2018 15:04:46.662 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550139%40example.com/simservs.xml
+27-11-2018 15:04:46.662 UTC INFO base.py:190: Only handled 20 requests in the last 19.16 seconds, rate remains unchanged. Minimum threshold for change is 958.052562
+27-11-2018 15:04:48.076 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550707%40example.com/simservs.xml
+27-11-2018 15:04:48.078 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550707%40example.com/simservs.xml
+27-11-2018 15:04:48.517 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550152%40example.com/simservs.xml
+27-11-2018 15:04:48.518 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:48.519 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550152%40example.com/simservs.xml
+27-11-2018 15:04:49.351 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550603%40example.com/simservs.xml
+27-11-2018 15:04:49.353 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550603%40example.com/simservs.xml
+27-11-2018 15:04:50.683 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550945%40example.com/simservs.xml
+27-11-2018 15:04:50.685 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550945%40example.com/simservs.xml
+27-11-2018 15:04:51.495 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550529%40example.com/simservs.xml
+27-11-2018 15:04:51.497 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550529%40example.com/simservs.xml
+27-11-2018 15:04:52.906 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550622%40example.com/simservs.xml
+27-11-2018 15:04:52.908 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550622%40example.com/simservs.xml
+27-11-2018 15:04:53.327 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550177%40example.com/simservs.xml
+27-11-2018 15:04:53.327 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:53.329 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550177%40example.com/simservs.xml
+27-11-2018 15:04:54.163 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550583%40example.com/simservs.xml
+27-11-2018 15:04:54.165 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550583%40example.com/simservs.xml
+27-11-2018 15:04:55.474 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550683%40example.com/simservs.xml
+27-11-2018 15:04:55.476 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550683%40example.com/simservs.xml
+27-11-2018 15:04:56.060 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550425%40example.com/simservs.xml
+27-11-2018 15:04:56.061 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550425%40example.com/simservs.xml
+27-11-2018 15:04:57.672 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550312%40example.com/simservs.xml
+27-11-2018 15:04:57.673 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:04:57.674 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550312%40example.com/simservs.xml
+27-11-2018 15:04:59.376 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550097%40example.com/simservs.xml
+27-11-2018 15:04:59.378 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550097%40example.com/simservs.xml
+27-11-2018 15:04:59.953 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550527%40example.com/simservs.xml
+27-11-2018 15:04:59.955 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550527%40example.com/simservs.xml
+27-11-2018 15:05:01.709 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550970%40example.com/simservs.xml
+27-11-2018 15:05:01.709 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:05:01.713 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550970%40example.com/simservs.xml
+27-11-2018 15:05:03.417 UTC INFO base.py:259: Received request from localhost - DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550167%40example.com/simservs.xml
+27-11-2018 15:05:03.418 UTC INFO base.py:272: Sending 204 response to localhost for DELETE http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550167%40example.com/simservs.xml
+27-11-2018 15:05:03.999 UTC INFO base.py:259: Received request from localhost - GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550758%40example.com/simservs.xml
+27-11-2018 15:05:04.001 UTC INFO base.py:272: Sending 200 response to localhost for GET http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550758%40example.com/simservs.xml
+27-11-2018 15:05:05.689 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550905%40example.com/simservs.xml
+27-11-2018 15:05:05.689 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:05:05.692 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550905%40example.com/simservs.xml
+27-11-2018 15:05:06.357 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550017%40example.com/simservs.xml
+27-11-2018 15:05:06.357 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:05:06.359 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550017%40example.com/simservs.xml
+27-11-2018 15:05:06.865 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550383%40example.com/simservs.xml
+27-11-2018 15:05:06.865 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:05:06.866 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550383%40example.com/simservs.xml
+27-11-2018 15:05:07.366 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550187%40example.com/simservs.xml
+27-11-2018 15:05:07.366 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:05:07.368 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550187%40example.com/simservs.xml
+27-11-2018 15:05:07.368 UTC INFO base.py:190: Only handled 20 requests in the last 20.71 seconds, rate remains unchanged. Minimum threshold for change is 1035.287002
+27-11-2018 15:05:07.889 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550612%40example.com/simservs.xml
+27-11-2018 15:05:07.889 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:05:07.890 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550612%40example.com/simservs.xml
+27-11-2018 15:05:08.403 UTC INFO base.py:259: Received request from localhost - PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550172%40example.com/simservs.xml
+27-11-2018 15:05:08.403 UTC INFO xsd.py:51: Performing XSD validation
+27-11-2018 15:05:08.405 UTC INFO base.py:272: Sending 200 response to localhost for PUT http://http_homer/org.etsi.ngn.simservs/users/sip%3A6505550172%40example.com/simservs.xml

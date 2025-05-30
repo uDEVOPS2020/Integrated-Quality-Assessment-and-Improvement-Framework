@@ -1,0 +1,10 @@
+NUSER->RES_TIME_login->RES_TIME_get_catalogue1->RES_TIME_get_item
+
+NUSER->RES_TIME_login->RES_TIME_get_catalogue1->RES_TIME_get_catalogue2->RES_TIME_get_item
+
+NUSER->CPU_login->REQ/s_get_catalogue1->RES_TIME_get_catalogue2->RES_TIME_get_item
+
+NUSER->REQ/s_get_catalogue1->RES_TIME_get_catalogue2->RES_TIME_get_item
+
+NUSER->RES_TIME_login->REQ/s_get_catalogue1->RES_TIME_get_catalogue2->RES_TIME_get_item
+

@@ -1,0 +1,8 @@
+SR->MEM_s0
+
+SR->CPU_s3->MEM_s0
+
+SR->MEM_s7->MEM_s0
+
+SR->MEM_s7->MEM_s1->MEM_s0
+

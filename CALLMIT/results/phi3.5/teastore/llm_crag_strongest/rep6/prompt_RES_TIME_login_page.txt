@@ -1,0 +1,28 @@
+==========Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 31
+- NUSER has to be greater than 3
+- LOAD has to be 'stress_shop' or 'normal' or 'stress_cart'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+NUSER -> CPU_addToCart -> CPU_view_product -> REQ/s_category -> REQ/s_buy -> REQ/s_logout -> MEM_teastore-db -> REQ/s_login -> CPU_teastore-persistence -> REQ/s_home -> CPU_teastore-image -> RES_TIME_profile -> RES_TIME_login -> RES_TIME_login_page
+LOAD -> REQ/s_buy -> REQ/s_logout -> MEM_teastore-db -> REQ/s_login -> CPU_teastore-persistence -> REQ/s_home -> CPU_teastore-image -> RES_TIME_profile -> RES_TIME_login -> RES_TIME_login_page
+SR -> MEM_addToCart -> MEM_home -> MEM_teastore-db -> REQ/s_login -> CPU_teastore-persistence -> REQ/s_home -> CPU_teastore-image -> RES_TIME_profile -> RES_TIME_login -> RES_TIME_login_page
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Question==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads RES_TIME_login_page to exceed 7.81031613195805<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

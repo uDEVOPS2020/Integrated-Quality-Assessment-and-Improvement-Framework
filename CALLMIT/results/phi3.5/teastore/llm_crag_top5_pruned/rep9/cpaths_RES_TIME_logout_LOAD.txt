@@ -1,0 +1,10 @@
+LOAD->REQ/s_buy->RES_TIME_category->RES_TIME_logout
+
+LOAD->REQ/s_buy->RES_TIME_logout
+
+LOAD->REQ/s_category->RES_TIME_category->RES_TIME_logout
+
+LOAD->RES_TIME_category->RES_TIME_logout
+
+LOAD->RES_TIME_logout
+

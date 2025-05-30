@@ -1,0 +1,25 @@
+==========System Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 31
+- NUSER has to be greater than 3
+- LOAD has to be 'unbalanced_one' or 'randomly_balanced' or 'uniform'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Human==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads MEM_s8 to exceed 67.00595078512266<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

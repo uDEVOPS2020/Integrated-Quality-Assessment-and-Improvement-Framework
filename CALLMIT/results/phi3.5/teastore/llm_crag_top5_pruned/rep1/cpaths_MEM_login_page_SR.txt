@@ -1,0 +1,2 @@
+SR->MEM_addToCart->MEM_category->MEM_login_page
+

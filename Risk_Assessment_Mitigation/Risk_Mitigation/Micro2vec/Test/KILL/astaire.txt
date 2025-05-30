@@ -1,0 +1,175 @@
+27-11-2018 14:55:09.683 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:09.698 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:09.722 UTC Error memcached_config.cpp:108: Failed to open '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:09.722 UTC Error main.cpp:282: Cluster view config is invalid. Exiting
+27-11-2018 14:55:10.759 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:10.760 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:10.778 UTC Error memcached_config.cpp:108: Failed to open '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:10.779 UTC Error main.cpp:282: Cluster view config is invalid. Exiting
+27-11-2018 14:55:10.779 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:55:12.811 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:12.811 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:12.830 UTC Error memcached_config.cpp:108: Failed to open '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:12.830 UTC Error main.cpp:282: Cluster view config is invalid. Exiting
+27-11-2018 14:55:15.926 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:15.926 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:15.958 UTC Error memcached_config.cpp:108: Failed to open '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:15.958 UTC Error main.cpp:282: Cluster view config is invalid. Exiting
+27-11-2018 14:55:15.959 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:55:20.001 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:20.001 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:20.023 UTC Error memcached_config.cpp:108: Failed to open '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:20.023 UTC Error main.cpp:282: Cluster view config is invalid. Exiting
+27-11-2018 14:55:25.058 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:25.058 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:25.078 UTC Error memcached_config.cpp:108: Failed to open '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:25.078 UTC Error main.cpp:282: Cluster view config is invalid. Exiting
+27-11-2018 14:55:25.079 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:55:31.111 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:31.112 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:31.135 UTC Error memcached_config.cpp:108: Failed to open '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:31.135 UTC Error main.cpp:282: Cluster view config is invalid. Exiting
+27-11-2018 14:55:31.135 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:55:38.170 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:38.171 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:38.194 UTC Error memcached_config.cpp:108: Failed to open '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:38.195 UTC Error main.cpp:282: Cluster view config is invalid. Exiting
+27-11-2018 14:55:38.195 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:55:46.240 UTC Status utils.cpp:686: Log level set to 2
+27-11-2018 14:55:46.241 UTC Status main.cpp:251: Astaire starting up
+27-11-2018 14:55:46.262 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:55:46.263 UTC Status memcached_config.cpp:45: Reloading memcached configuration from '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:46.263 UTC Status memcached_config.cpp:84:  servers=
+27-11-2018 14:55:46.263 UTC Status memcached_config.cpp:84:  new_servers=172.18.0.3:11211
+27-11-2018 14:55:46.263 UTC Status memcached_config.cpp:45: Reloading memcached configuration from '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:46.263 UTC Status memcached_config.cpp:84:  servers=
+27-11-2018 14:55:46.263 UTC Status memcached_config.cpp:84:  new_servers=172.18.0.3:11211
+27-11-2018 14:55:46.263 UTC Status memcached_backend.cpp:94: Updating memcached store configuration
+27-11-2018 14:55:46.263 UTC Status memcached_backend.cpp:113: Finished preparing new view
+27-11-2018 14:55:46.263 UTC Status proxy_server.cpp:66: Starting proxy server on port 11311
+27-11-2018 14:55:46.263 UTC Status proxy_server.cpp:115: Started proxy server
+27-11-2018 14:55:46.263 UTC Status memcached_config.cpp:45: Reloading memcached configuration from '/etc/clearwater/cluster_settings'
+27-11-2018 14:55:46.264 UTC Status memcached_config.cpp:84:  servers=
+27-11-2018 14:55:46.264 UTC Status memcached_config.cpp:84:  new_servers=172.18.0.3:11211
+27-11-2018 14:55:46.266 UTC Status alarm.cpp:81: Alarm severity changed from NULL to 5501.1
+27-11-2018 14:55:46.266 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 14:56:16.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:56:16.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 14:56:46.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:56:46.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 14:57:16.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:57:16.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 14:57:46.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:57:46.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 14:58:16.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:58:16.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 14:58:46.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:58:46.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 14:59:16.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:59:16.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 14:59:46.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 14:59:46.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:00:10.660 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.10]:23692
+27-11-2018 15:00:10.661 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.10]:23692
+27-11-2018 15:00:10.661 UTC Status alarm.cpp:81: Alarm severity changed from NULL to 5503.1
+27-11-2018 15:00:10.661 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:00:10.661 UTC Status alarm.cpp:81: Alarm severity changed from NULL to 5502.1
+27-11-2018 15:00:10.661 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:00:10.754 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.6]:30418
+27-11-2018 15:00:10.754 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.6]:30418
+27-11-2018 15:00:10.760 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.10]:26252
+27-11-2018 15:00:10.760 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.10]:26252
+27-11-2018 15:00:11.296 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.9]:52896
+27-11-2018 15:00:11.296 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.9]:52896
+27-11-2018 15:00:11.298 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.9]:54432
+27-11-2018 15:00:11.298 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.9]:54944
+27-11-2018 15:00:11.298 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.9]:54432
+27-11-2018 15:00:11.298 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.9]:54944
+27-11-2018 15:00:15.640 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.9]:12449
+27-11-2018 15:00:15.641 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.9]:12449
+27-11-2018 15:00:16.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:00:16.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:00:16.263 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:00:16.263 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:00:43.092 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.10]:23183
+27-11-2018 15:00:43.092 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.10]:23183
+27-11-2018 15:00:46.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:00:46.263 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:00:46.263 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:00:46.263 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:01:16.263 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:01:16.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:01:16.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:01:16.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:01:46.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:01:46.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:01:46.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:01:46.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:02:16.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:02:16.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:02:16.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:02:16.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:02:46.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:02:46.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:02:46.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:02:46.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:03:15.198 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.10]:31908
+27-11-2018 15:03:15.198 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.10]:31908
+27-11-2018 15:03:16.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:03:16.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:03:16.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:03:16.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:03:46.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:03:46.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:03:46.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:03:46.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:04:16.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:04:16.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:04:16.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:04:16.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:04:31.426 UTC Status proxy_server.cpp:171: Accepted socket from [::ffff:172.18.0.10]:26801
+27-11-2018 15:04:31.427 UTC Status proxy_server.cpp:208: Starting connection thread for [::ffff:172.18.0.10]:26801
+27-11-2018 15:04:46.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:04:46.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:04:46.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:04:46.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:05:16.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:05:16.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:05:16.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:05:16.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:05:46.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:05:46.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:05:46.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:05:46.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:06:16.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:06:16.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:06:16.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:06:16.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:06:46.264 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:06:46.264 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:06:46.264 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:06:46.264 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:07:16.265 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:07:16.265 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:07:16.265 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:07:16.265 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:07:46.265 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:07:46.265 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:07:46.265 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:07:46.265 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:08:16.265 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:08:16.265 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:08:16.265 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:08:16.265 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:08:46.265 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:08:46.265 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:08:46.265 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:08:46.265 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:09:16.265 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:09:16.265 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:09:16.265 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:09:16.265 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm
+27-11-2018 15:09:46.265 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+27-11-2018 15:09:46.265 UTC Status alarm.cpp:37: astaire issued 5501.1 alarm
+27-11-2018 15:09:46.265 UTC Status alarm.cpp:37: astaire issued 5502.1 alarm
+27-11-2018 15:09:46.265 UTC Status alarm.cpp:37: astaire issued 5503.1 alarm

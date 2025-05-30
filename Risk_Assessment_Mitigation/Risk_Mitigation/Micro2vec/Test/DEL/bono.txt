@@ -1,0 +1,491 @@
+05-11-2018 15:02:58.822 UTC Status utils.cpp:686: Log level set to 2
+05-11-2018 15:02:58.823 UTC Status main.cpp:1720: Access logging enabled to /var/log/bono
+05-11-2018 15:02:58.823 UTC Warning main.cpp:1776: SAS server option was invalid or not configured - SAS is disabled
+05-11-2018 15:02:58.823 UTC Warning main.cpp:1838: A registration expiry period should not be specified for P-CSCF
+05-11-2018 15:02:58.824 UTC Status snmp_agent.cpp:98: AgentX agent initialised
+05-11-2018 15:02:58.846 UTC Status load_monitor.cpp:80: Constructing LoadMonitor
+05-11-2018 15:02:58.846 UTC Status load_monitor.cpp:81:    Target latency (usecs)   : 100000
+05-11-2018 15:02:58.846 UTC Status load_monitor.cpp:82:    Max bucket size          : 1000
+05-11-2018 15:02:58.846 UTC Status load_monitor.cpp:83:    Initial token fill rate/s: 100.000000
+05-11-2018 15:02:58.846 UTC Status load_monitor.cpp:84:    Min token fill rate/s    : 10.000000
+05-11-2018 15:02:58.846 UTC Status dnscachedresolver.cpp:126: Creating Cached Resolver using servers:
+05-11-2018 15:02:58.846 UTC Status dnscachedresolver.cpp:136:     127.0.0.11
+05-11-2018 15:02:58.846 UTC Status sipresolver.cpp:35: Created SIP resolver
+05-11-2018 15:02:58.847 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:02:58.891 UTC Status stack.cpp:389: Listening on port 5058
+05-11-2018 15:02:58.893 UTC Status stack.cpp:389: Listening on port 5060
+05-11-2018 15:02:58.893 UTC Status stack.cpp:826: Local host aliases:
+05-11-2018 15:02:58.893 UTC Status stack.cpp:833:  172.18.0.11
+05-11-2018 15:02:58.894 UTC Status stack.cpp:833:  172.18.0.11
+05-11-2018 15:02:58.894 UTC Status stack.cpp:833:  172.18.0.11
+05-11-2018 15:02:58.894 UTC Status stack.cpp:833:  
+05-11-2018 15:02:58.894 UTC Status a_record_resolver.cpp:29: Created ARecordResolver
+05-11-2018 15:02:58.895 UTC Status http_connection_pool.cpp:35: Connection pool will use calculated response timeout of 550ms
+05-11-2018 15:02:58.897 UTC Status httpconnection.h:58: Configuring HTTP Connection
+05-11-2018 15:02:58.897 UTC Status httpconnection.h:59:   Connection created for server ralf:10888
+05-11-2018 15:02:58.898 UTC Status fifcservice.cpp:49: No fallback iFC configuration found (file /etc/clearwater/fallback_ifcs.xml does not exist)
+05-11-2018 15:02:58.898 UTC Status alarm.cpp:81: Alarm severity changed from NULL to 1012.3
+05-11-2018 15:02:58.898 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:02:58.898 UTC Status mmfservice.cpp:51: No MMF configuration found (file /etc/clearwater/mmf_targets.json does not exist)
+05-11-2018 15:02:58.898 UTC Status alarm.cpp:81: Alarm severity changed from NULL to 1013.3
+05-11-2018 15:02:58.898 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:02:58.898 UTC Status sip_connection_pool.cpp:47: Creating connection pool to sprout:5052
+05-11-2018 15:02:58.898 UTC Status sip_connection_pool.cpp:48:   connections = 50, recycle time = 600 +/- 120 seconds
+05-11-2018 15:02:58.905 UTC Status bono.cpp:3305: Create list of PBXes
+05-11-2018 15:02:58.905 UTC Status main.cpp:1589: Creating connection to Chronos 127.0.0.1:7253 using 127.0.0.1:9888 as the callback URI
+05-11-2018 15:02:58.905 UTC Status http_connection_pool.cpp:35: Connection pool will use calculated response timeout of 550ms
+05-11-2018 15:02:58.905 UTC Status httpconnection.h:58: Configuring HTTP Connection
+05-11-2018 15:02:58.905 UTC Status httpconnection.h:59:   Connection created for server 127.0.0.1:7253
+05-11-2018 15:02:58.905 UTC Status main.cpp:1482: Using local store
+05-11-2018 15:02:58.905 UTC Status main.cpp:1538: Using local store
+05-11-2018 15:02:58.905 UTC Status httpstack.cpp:40: Constructing HTTP stack with 1 threads
+05-11-2018 15:02:58.906 UTC Status httpstack.cpp:40: Constructing HTTP stack with 5 threads
+05-11-2018 15:02:58.906 UTC Status pluginloader.cpp:38: Loading plug-ins from /usr/share/clearwater/sprout/plugins
+05-11-2018 15:02:58.906 UTC Status pluginloader.cpp:150: Finished loading plug-ins
+05-11-2018 15:02:58.910 UTC Status stack.cpp:143: PJSIP thread started
+05-11-2018 15:03:28.847 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:03:28.857 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:03:28.857 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:03:58.847 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:03:58.847 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:03:58.847 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:04:28.847 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:04:28.847 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:04:28.847 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:04:58.847 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:04:58.848 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:04:58.848 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:05:28.848 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:05:28.848 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:05:28.848 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:05:58.848 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:05:58.848 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:05:58.848 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:06:28.849 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:06:28.849 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:06:28.849 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:06:58.849 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:06:58.849 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:06:58.849 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:07:28.849 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:07:28.849 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:07:28.849 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:07:58.849 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:07:58.849 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:07:58.849 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:08:28.849 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:08:28.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:08:28.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:08:58.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:08:58.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:08:58.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:09:28.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:09:28.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:09:28.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:09:40.372 UTC Status alarm.cpp:81: Alarm severity changed from NULL to 1005.1
+05-11-2018 15:09:40.372 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:09:41.928 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 403082ms, minimum threshold for a change is 20154.099609
+05-11-2018 15:09:43.997 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2072ms, minimum threshold for a change is 103.599998
+05-11-2018 15:09:46.108 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2108ms, minimum threshold for a change is 105.400002
+05-11-2018 15:09:48.487 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2380ms, minimum threshold for a change is 119.000000
+05-11-2018 15:09:50.506 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2020ms, minimum threshold for a change is 101.000000
+05-11-2018 15:09:52.631 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2124ms, minimum threshold for a change is 106.199997
+05-11-2018 15:09:55.102 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2472ms, minimum threshold for a change is 123.599998
+05-11-2018 15:09:57.147 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2044ms, minimum threshold for a change is 102.199997
+05-11-2018 15:09:58.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:09:58.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:09:58.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:09:58.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:09:59.261 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2116ms, minimum threshold for a change is 105.800003
+05-11-2018 15:10:01.720 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2456ms, minimum threshold for a change is 122.800003
+05-11-2018 15:10:03.726 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 23 requests in last 2008ms, minimum threshold for a change is 100.400002
+05-11-2018 15:10:06.512 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2784ms, minimum threshold for a change is 139.199997
+05-11-2018 15:10:08.773 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2264ms, minimum threshold for a change is 113.199997
+05-11-2018 15:10:11.118 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2344ms, minimum threshold for a change is 117.199997
+05-11-2018 15:10:13.905 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2788ms, minimum threshold for a change is 139.399994
+05-11-2018 15:10:16.162 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2256ms, minimum threshold for a change is 112.800003
+05-11-2018 15:10:18.417 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2256ms, minimum threshold for a change is 112.800003
+05-11-2018 15:10:20.660 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2240ms, minimum threshold for a change is 112.000000
+05-11-2018 15:10:22.879 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2220ms, minimum threshold for a change is 111.000000
+05-11-2018 15:10:25.725 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2848ms, minimum threshold for a change is 142.399994
+05-11-2018 15:10:28.679 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2952ms, minimum threshold for a change is 147.600006
+05-11-2018 15:10:28.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:10:28.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:10:28.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:10:28.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:10:31.380 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2700ms, minimum threshold for a change is 135.000000
+05-11-2018 15:10:33.766 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2388ms, minimum threshold for a change is 119.400002
+05-11-2018 15:10:35.788 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2020ms, minimum threshold for a change is 101.000000
+05-11-2018 15:10:37.795 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 22 requests in last 2008ms, minimum threshold for a change is 100.400002
+05-11-2018 15:10:39.864 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2068ms, minimum threshold for a change is 103.400002
+05-11-2018 15:10:41.890 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2028ms, minimum threshold for a change is 101.400002
+05-11-2018 15:10:43.916 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2024ms, minimum threshold for a change is 101.199997
+05-11-2018 15:10:46.065 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2152ms, minimum threshold for a change is 107.599998
+05-11-2018 15:10:48.297 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2228ms, minimum threshold for a change is 111.400002
+05-11-2018 15:10:50.549 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2252ms, minimum threshold for a change is 112.599998
+05-11-2018 15:10:52.761 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2212ms, minimum threshold for a change is 110.599998
+05-11-2018 15:10:55.016 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2256ms, minimum threshold for a change is 112.800003
+05-11-2018 15:10:57.194 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 22 requests in last 2180ms, minimum threshold for a change is 109.000000
+05-11-2018 15:10:58.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:10:58.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:10:58.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:10:58.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:10:59.568 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 30 requests in last 2372ms, minimum threshold for a change is 118.599998
+05-11-2018 15:11:00.974 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 18
+05-11-2018 15:11:01.568 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 23 requests in last 2000ms, minimum threshold for a change is 100.000000
+05-11-2018 15:11:01.974 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 31
+05-11-2018 15:11:03.579 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2012ms, minimum threshold for a change is 100.599998
+05-11-2018 15:11:06.029 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 25 requests in last 2448ms, minimum threshold for a change is 122.400002
+05-11-2018 15:11:08.038 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2012ms, minimum threshold for a change is 100.599998
+05-11-2018 15:11:08.975 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 46
+05-11-2018 15:11:09.976 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 4
+05-11-2018 15:11:10.046 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2008ms, minimum threshold for a change is 100.400002
+05-11-2018 15:11:13.222 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3176ms, minimum threshold for a change is 158.800003
+05-11-2018 15:11:16.325 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3104ms, minimum threshold for a change is 155.199997
+05-11-2018 15:11:16.977 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 10
+05-11-2018 15:11:17.977 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 29
+05-11-2018 15:11:19.031 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2704ms, minimum threshold for a change is 135.199997
+05-11-2018 15:11:21.385 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2356ms, minimum threshold for a change is 117.800003
+05-11-2018 15:11:22.993 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 17
+05-11-2018 15:11:22.993 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 47
+05-11-2018 15:11:23.994 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 38
+05-11-2018 15:11:24.076 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 22 requests in last 2688ms, minimum threshold for a change is 134.399994
+05-11-2018 15:11:26.420 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2344ms, minimum threshold for a change is 117.199997
+05-11-2018 15:11:27.995 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 24
+05-11-2018 15:11:28.419 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 22 requests in last 2000ms, minimum threshold for a change is 100.000000
+05-11-2018 15:11:28.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:11:28.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:11:28.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:11:28.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:11:30.555 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2136ms, minimum threshold for a change is 106.800003
+05-11-2018 15:11:31.996 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 6
+05-11-2018 15:11:32.689 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2136ms, minimum threshold for a change is 106.800003
+05-11-2018 15:11:34.738 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2048ms, minimum threshold for a change is 102.400002
+05-11-2018 15:11:36.767 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2028ms, minimum threshold for a change is 101.400002
+05-11-2018 15:11:38.773 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2008ms, minimum threshold for a change is 100.400002
+05-11-2018 15:11:38.998 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 1
+05-11-2018 15:11:38.999 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 5
+05-11-2018 15:11:39.999 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 40
+05-11-2018 15:11:40.795 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2020ms, minimum threshold for a change is 101.000000
+05-11-2018 15:11:42.826 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2032ms, minimum threshold for a change is 101.599998
+05-11-2018 15:11:44.895 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2068ms, minimum threshold for a change is 103.400002
+05-11-2018 15:11:47.108 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2212ms, minimum threshold for a change is 110.599998
+05-11-2018 15:11:49.530 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2424ms, minimum threshold for a change is 121.199997
+05-11-2018 15:11:51.980 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2448ms, minimum threshold for a change is 122.400002
+05-11-2018 15:11:52.001 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 25
+05-11-2018 15:11:52.002 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 35
+05-11-2018 15:11:54.439 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2460ms, minimum threshold for a change is 123.000000
+05-11-2018 15:11:56.955 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2516ms, minimum threshold for a change is 125.800003
+05-11-2018 15:11:58.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:11:58.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:11:58.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:11:58.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:11:59.345 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2392ms, minimum threshold for a change is 119.599998
+05-11-2018 15:12:00.004 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 42
+05-11-2018 15:12:01.007 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 9
+05-11-2018 15:12:01.772 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2424ms, minimum threshold for a change is 121.199997
+05-11-2018 15:12:04.287 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2516ms, minimum threshold for a change is 125.800003
+05-11-2018 15:12:06.697 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2412ms, minimum threshold for a change is 120.599998
+05-11-2018 15:12:09.133 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2432ms, minimum threshold for a change is 121.599998
+05-11-2018 15:12:11.558 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2428ms, minimum threshold for a change is 121.400002
+05-11-2018 15:12:12.010 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 20
+05-11-2018 15:12:14.509 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2952ms, minimum threshold for a change is 147.600006
+05-11-2018 15:12:17.138 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2628ms, minimum threshold for a change is 131.399994
+05-11-2018 15:12:19.020 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 13
+05-11-2018 15:12:19.735 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2596ms, minimum threshold for a change is 129.800003
+05-11-2018 15:12:22.370 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2636ms, minimum threshold for a change is 131.800003
+05-11-2018 15:12:25.136 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2764ms, minimum threshold for a change is 138.199997
+05-11-2018 15:12:27.973 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2840ms, minimum threshold for a change is 142.000000
+05-11-2018 15:12:28.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:12:28.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:12:28.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:12:28.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:12:30.721 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2744ms, minimum threshold for a change is 137.199997
+05-11-2018 15:12:33.164 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2444ms, minimum threshold for a change is 122.199997
+05-11-2018 15:12:35.901 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2740ms, minimum threshold for a change is 137.000000
+05-11-2018 15:12:38.421 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2516ms, minimum threshold for a change is 125.800003
+05-11-2018 15:12:40.023 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 39
+05-11-2018 15:12:40.422 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 41 requests in last 2004ms, minimum threshold for a change is 100.199997
+05-11-2018 15:12:42.647 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 33 requests in last 2224ms, minimum threshold for a change is 111.199997
+05-11-2018 15:12:43.024 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 37
+05-11-2018 15:12:44.700 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 39 requests in last 2052ms, minimum threshold for a change is 102.599998
+05-11-2018 15:12:46.706 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2008ms, minimum threshold for a change is 100.400002
+05-11-2018 15:12:47.025 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 30
+05-11-2018 15:12:48.951 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 33 requests in last 2244ms, minimum threshold for a change is 112.199997
+05-11-2018 15:12:51.515 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2564ms, minimum threshold for a change is 128.199997
+05-11-2018 15:12:54.618 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 3105ms, minimum threshold for a change is 155.250000
+05-11-2018 15:12:55.027 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 2
+05-11-2018 15:12:57.270 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2652ms, minimum threshold for a change is 132.600006
+05-11-2018 15:12:58.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:12:58.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:12:58.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:12:58.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:12:59.907 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2632ms, minimum threshold for a change is 131.600006
+05-11-2018 15:13:02.029 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 49
+05-11-2018 15:13:02.427 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2520ms, minimum threshold for a change is 126.000000
+05-11-2018 15:13:04.937 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 43 requests in last 2512ms, minimum threshold for a change is 125.599998
+05-11-2018 15:13:07.495 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 40 requests in last 2556ms, minimum threshold for a change is 127.800003
+05-11-2018 15:13:09.909 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 40 requests in last 2412ms, minimum threshold for a change is 120.599998
+05-11-2018 15:13:12.473 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 40 requests in last 2564ms, minimum threshold for a change is 128.199997
+05-11-2018 15:13:14.769 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 40 requests in last 2296ms, minimum threshold for a change is 114.800003
+05-11-2018 15:13:16.035 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 12
+05-11-2018 15:13:16.035 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 36
+05-11-2018 15:13:17.074 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 40 requests in last 2308ms, minimum threshold for a change is 115.400002
+05-11-2018 15:13:19.399 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 45 requests in last 2324ms, minimum threshold for a change is 116.199997
+05-11-2018 15:13:21.732 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 45 requests in last 2332ms, minimum threshold for a change is 116.599998
+05-11-2018 15:13:24.055 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 45 requests in last 2324ms, minimum threshold for a change is 116.199997
+05-11-2018 15:13:26.381 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 45 requests in last 2328ms, minimum threshold for a change is 116.400002
+05-11-2018 15:13:28.636 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 45 requests in last 2252ms, minimum threshold for a change is 112.599998
+05-11-2018 15:13:28.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:13:28.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:13:28.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:13:28.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:13:31.273 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2636ms, minimum threshold for a change is 131.800003
+05-11-2018 15:13:33.037 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 16
+05-11-2018 15:13:33.402 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2136ms, minimum threshold for a change is 106.800003
+05-11-2018 15:13:34.037 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 41
+05-11-2018 15:13:36.479 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3072ms, minimum threshold for a change is 153.600006
+05-11-2018 15:13:37.038 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 27
+05-11-2018 15:13:38.492 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 42 requests in last 2012ms, minimum threshold for a change is 100.599998
+05-11-2018 15:13:41.052 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 38 requests in last 2560ms, minimum threshold for a change is 128.000000
+05-11-2018 15:13:43.073 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 38 requests in last 2024ms, minimum threshold for a change is 101.199997
+05-11-2018 15:13:45.847 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2772ms, minimum threshold for a change is 138.600006
+05-11-2018 15:13:47.875 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 42 requests in last 2028ms, minimum threshold for a change is 101.400002
+05-11-2018 15:13:48.039 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 0
+05-11-2018 15:13:49.040 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 32
+05-11-2018 15:13:49.910 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 34 requests in last 2036ms, minimum threshold for a change is 101.800003
+05-11-2018 15:13:50.040 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 45
+05-11-2018 15:13:51.041 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 26
+05-11-2018 15:13:52.108 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2196ms, minimum threshold for a change is 109.800003
+05-11-2018 15:13:54.146 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 44 requests in last 2040ms, minimum threshold for a change is 102.000000
+05-11-2018 15:13:56.217 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 30 requests in last 2072ms, minimum threshold for a change is 103.599998
+05-11-2018 15:13:57.043 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 43
+05-11-2018 15:13:58.410 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 22 requests in last 2196ms, minimum threshold for a change is 109.800003
+05-11-2018 15:13:58.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:13:58.850 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:13:58.850 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:13:58.850 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:14:01.337 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 48 requests in last 2924ms, minimum threshold for a change is 146.199997
+05-11-2018 15:14:03.339 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 47 requests in last 2000ms, minimum threshold for a change is 100.000000
+05-11-2018 15:14:05.396 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2056ms, minimum threshold for a change is 102.800003
+05-11-2018 15:14:07.464 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2068ms, minimum threshold for a change is 103.400002
+05-11-2018 15:14:09.895 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 48 requests in last 2432ms, minimum threshold for a change is 121.599998
+05-11-2018 15:14:10.045 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 22
+05-11-2018 15:14:12.471 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2576ms, minimum threshold for a change is 128.800003
+05-11-2018 15:14:14.047 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 48
+05-11-2018 15:14:14.960 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2488ms, minimum threshold for a change is 124.400002
+05-11-2018 15:14:15.047 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 3
+05-11-2018 15:14:17.048 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 11
+05-11-2018 15:14:17.049 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 15
+05-11-2018 15:14:17.404 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2444ms, minimum threshold for a change is 122.199997
+05-11-2018 15:14:18.049 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 34
+05-11-2018 15:14:19.050 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 28
+05-11-2018 15:14:19.857 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2452ms, minimum threshold for a change is 122.599998
+05-11-2018 15:14:22.050 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 8
+05-11-2018 15:14:22.396 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2540ms, minimum threshold for a change is 127.000000
+05-11-2018 15:14:24.811 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2416ms, minimum threshold for a change is 120.800003
+05-11-2018 15:14:27.298 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2488ms, minimum threshold for a change is 124.400002
+05-11-2018 15:14:28.053 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 23
+05-11-2018 15:14:28.850 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:14:28.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:14:28.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:14:28.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:14:29.054 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 7
+05-11-2018 15:14:29.888 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2588ms, minimum threshold for a change is 129.399994
+05-11-2018 15:14:32.331 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 52 requests in last 2444ms, minimum threshold for a change is 122.199997
+05-11-2018 15:14:34.355 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 30 requests in last 2024ms, minimum threshold for a change is 101.199997
+05-11-2018 15:14:36.404 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 32 requests in last 2048ms, minimum threshold for a change is 102.400002
+05-11-2018 15:14:38.429 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 30 requests in last 2024ms, minimum threshold for a change is 101.199997
+05-11-2018 15:14:40.503 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 32 requests in last 2076ms, minimum threshold for a change is 103.800003
+05-11-2018 15:14:42.508 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 31 requests in last 2004ms, minimum threshold for a change is 100.199997
+05-11-2018 15:14:43.056 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 21
+05-11-2018 15:14:44.056 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 33
+05-11-2018 15:14:44.598 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2092ms, minimum threshold for a change is 104.599998
+05-11-2018 15:14:45.057 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 19
+05-11-2018 15:14:46.727 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2128ms, minimum threshold for a change is 106.400002
+05-11-2018 15:14:48.783 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2056ms, minimum threshold for a change is 102.800003
+05-11-2018 15:14:50.862 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2080ms, minimum threshold for a change is 104.000000
+05-11-2018 15:14:52.927 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2064ms, minimum threshold for a change is 103.199997
+05-11-2018 15:14:54.953 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 23 requests in last 2028ms, minimum threshold for a change is 101.400002
+05-11-2018 15:14:55.059 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 44
+05-11-2018 15:14:56.062 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 14
+05-11-2018 15:14:56.953 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 25 requests in last 2000ms, minimum threshold for a change is 100.000000
+05-11-2018 15:14:58.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:14:58.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:14:58.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:14:58.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:14:59.023 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 27 requests in last 2068ms, minimum threshold for a change is 103.400002
+05-11-2018 15:15:01.025 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2004ms, minimum threshold for a change is 100.199997
+05-11-2018 15:15:03.982 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2956ms, minimum threshold for a change is 147.800003
+05-11-2018 15:15:06.043 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2060ms, minimum threshold for a change is 103.000000
+05-11-2018 15:15:08.216 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2172ms, minimum threshold for a change is 108.599998
+05-11-2018 15:15:10.437 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2220ms, minimum threshold for a change is 111.000000
+05-11-2018 15:15:13.178 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2744ms, minimum threshold for a change is 137.199997
+05-11-2018 15:15:15.333 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2156ms, minimum threshold for a change is 107.800003
+05-11-2018 15:15:17.413 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2076ms, minimum threshold for a change is 103.800003
+05-11-2018 15:15:19.492 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2080ms, minimum threshold for a change is 104.000000
+05-11-2018 15:15:21.491 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2000ms, minimum threshold for a change is 100.000000
+05-11-2018 15:15:23.632 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2140ms, minimum threshold for a change is 107.000000
+05-11-2018 15:15:25.736 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 30 requests in last 2104ms, minimum threshold for a change is 105.199997
+05-11-2018 15:15:27.815 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 36 requests in last 2080ms, minimum threshold for a change is 104.000000
+05-11-2018 15:15:28.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:15:28.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:15:28.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:15:28.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:15:29.820 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2008ms, minimum threshold for a change is 100.400002
+05-11-2018 15:15:31.851 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 32 requests in last 2032ms, minimum threshold for a change is 101.599998
+05-11-2018 15:15:33.877 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 30 requests in last 2024ms, minimum threshold for a change is 101.199997
+05-11-2018 15:15:36.713 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 36 requests in last 2836ms, minimum threshold for a change is 141.800003
+05-11-2018 15:15:38.798 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 36 requests in last 2084ms, minimum threshold for a change is 104.199997
+05-11-2018 15:15:40.804 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2004ms, minimum threshold for a change is 100.199997
+05-11-2018 15:15:43.266 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2464ms, minimum threshold for a change is 123.199997
+05-11-2018 15:15:45.377 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2108ms, minimum threshold for a change is 105.400002
+05-11-2018 15:15:47.435 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2060ms, minimum threshold for a change is 103.000000
+05-11-2018 15:15:49.555 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2120ms, minimum threshold for a change is 106.000000
+05-11-2018 15:15:51.638 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2084ms, minimum threshold for a change is 104.199997
+05-11-2018 15:15:53.831 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2192ms, minimum threshold for a change is 109.599998
+05-11-2018 15:15:56.007 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2176ms, minimum threshold for a change is 108.800003
+05-11-2018 15:15:58.160 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2156ms, minimum threshold for a change is 107.800003
+05-11-2018 15:15:58.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:15:58.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:15:58.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:15:58.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:16:00.869 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2708ms, minimum threshold for a change is 135.399994
+05-11-2018 15:16:02.905 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2032ms, minimum threshold for a change is 101.599998
+05-11-2018 15:16:05.439 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 22 requests in last 2536ms, minimum threshold for a change is 126.800003
+05-11-2018 15:16:07.700 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2260ms, minimum threshold for a change is 113.000000
+05-11-2018 15:16:10.315 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2616ms, minimum threshold for a change is 130.800003
+05-11-2018 15:16:12.608 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2292ms, minimum threshold for a change is 114.599998
+05-11-2018 15:16:15.262 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2656ms, minimum threshold for a change is 132.800003
+05-11-2018 15:16:17.530 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2268ms, minimum threshold for a change is 113.400002
+05-11-2018 15:16:20.193 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2664ms, minimum threshold for a change is 133.199997
+05-11-2018 15:16:23.449 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3252ms, minimum threshold for a change is 162.600006
+05-11-2018 15:16:26.509 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3060ms, minimum threshold for a change is 153.000000
+05-11-2018 15:16:28.583 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 30 requests in last 2076ms, minimum threshold for a change is 103.800003
+05-11-2018 15:16:28.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:16:28.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:16:28.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:16:28.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:16:30.884 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2304ms, minimum threshold for a change is 115.199997
+05-11-2018 15:16:32.911 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2024ms, minimum threshold for a change is 101.199997
+05-11-2018 15:16:34.910 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2000ms, minimum threshold for a change is 100.000000
+05-11-2018 15:16:37.182 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 24 requests in last 2272ms, minimum threshold for a change is 113.599998
+05-11-2018 15:16:39.585 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2400ms, minimum threshold for a change is 120.000000
+05-11-2018 15:16:42.014 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2432ms, minimum threshold for a change is 121.599998
+05-11-2018 15:16:44.624 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2608ms, minimum threshold for a change is 130.399994
+05-11-2018 15:16:46.916 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2292ms, minimum threshold for a change is 114.599998
+05-11-2018 15:16:49.099 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2184ms, minimum threshold for a change is 109.199997
+05-11-2018 15:16:51.411 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2312ms, minimum threshold for a change is 115.599998
+05-11-2018 15:16:53.595 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2184ms, minimum threshold for a change is 109.199997
+05-11-2018 15:16:55.780 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2184ms, minimum threshold for a change is 109.199997
+05-11-2018 15:16:57.958 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2180ms, minimum threshold for a change is 109.000000
+05-11-2018 15:16:58.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:16:58.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:16:58.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:16:58.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:17:00.233 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2276ms, minimum threshold for a change is 113.800003
+05-11-2018 15:17:02.514 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2280ms, minimum threshold for a change is 114.000000
+05-11-2018 15:17:04.708 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2192ms, minimum threshold for a change is 109.599998
+05-11-2018 15:17:06.913 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2208ms, minimum threshold for a change is 110.400002
+05-11-2018 15:17:09.221 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2308ms, minimum threshold for a change is 115.400002
+05-11-2018 15:17:11.501 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2276ms, minimum threshold for a change is 113.800003
+05-11-2018 15:17:13.797 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2300ms, minimum threshold for a change is 115.000000
+05-11-2018 15:17:16.092 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2292ms, minimum threshold for a change is 114.599998
+05-11-2018 15:17:18.593 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2500ms, minimum threshold for a change is 125.000000
+05-11-2018 15:17:21.090 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2500ms, minimum threshold for a change is 125.000000
+05-11-2018 15:17:23.537 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2448ms, minimum threshold for a change is 122.400002
+05-11-2018 15:17:26.015 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2476ms, minimum threshold for a change is 123.800003
+05-11-2018 15:17:28.601 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2588ms, minimum threshold for a change is 129.399994
+05-11-2018 15:17:28.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:17:28.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:17:28.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:17:28.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:17:31.087 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2484ms, minimum threshold for a change is 124.199997
+05-11-2018 15:17:33.687 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2604ms, minimum threshold for a change is 130.199997
+05-11-2018 15:17:36.210 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2520ms, minimum threshold for a change is 126.000000
+05-11-2018 15:17:38.688 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2477ms, minimum threshold for a change is 123.849998
+05-11-2018 15:17:41.084 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2396ms, minimum threshold for a change is 119.800003
+05-11-2018 15:17:43.562 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2480ms, minimum threshold for a change is 124.000000
+05-11-2018 15:17:46.140 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2576ms, minimum threshold for a change is 128.800003
+05-11-2018 15:17:48.616 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2476ms, minimum threshold for a change is 123.800003
+05-11-2018 15:17:51.107 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2492ms, minimum threshold for a change is 124.599998
+05-11-2018 15:17:53.635 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2528ms, minimum threshold for a change is 126.400002
+05-11-2018 15:17:56.253 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2616ms, minimum threshold for a change is 130.800003
+05-11-2018 15:17:58.728 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2476ms, minimum threshold for a change is 123.800003
+05-11-2018 15:17:58.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:17:58.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:17:58.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:17:58.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:18:01.245 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2520ms, minimum threshold for a change is 126.000000
+05-11-2018 15:18:03.594 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2348ms, minimum threshold for a change is 117.400002
+05-11-2018 15:18:06.079 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2484ms, minimum threshold for a change is 124.199997
+05-11-2018 15:18:08.549 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2468ms, minimum threshold for a change is 123.400002
+05-11-2018 15:18:11.035 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2488ms, minimum threshold for a change is 124.400002
+05-11-2018 15:18:13.414 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2380ms, minimum threshold for a change is 119.000000
+05-11-2018 15:18:15.895 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2480ms, minimum threshold for a change is 124.000000
+05-11-2018 15:18:18.502 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2608ms, minimum threshold for a change is 130.399994
+05-11-2018 15:18:20.982 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2480ms, minimum threshold for a change is 124.000000
+05-11-2018 15:18:23.487 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 29 requests in last 2504ms, minimum threshold for a change is 125.199997
+05-11-2018 15:18:25.960 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2472ms, minimum threshold for a change is 123.599998
+05-11-2018 15:18:28.399 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2440ms, minimum threshold for a change is 122.000000
+05-11-2018 15:18:28.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:18:28.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:18:28.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:18:28.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:18:30.754 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2356ms, minimum threshold for a change is 117.800003
+05-11-2018 15:18:33.236 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2480ms, minimum threshold for a change is 124.000000
+05-11-2018 15:18:35.694 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 28 requests in last 2460ms, minimum threshold for a change is 123.000000
+05-11-2018 15:18:37.847 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2152ms, minimum threshold for a change is 107.599998
+05-11-2018 15:18:40.381 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2532ms, minimum threshold for a change is 126.599998
+05-11-2018 15:18:42.940 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2560ms, minimum threshold for a change is 128.000000
+05-11-2018 15:18:45.461 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2524ms, minimum threshold for a change is 126.199997
+05-11-2018 15:18:48.018 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2556ms, minimum threshold for a change is 127.800003
+05-11-2018 15:18:50.491 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 26 requests in last 2472ms, minimum threshold for a change is 123.599998
+05-11-2018 15:18:52.604 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2112ms, minimum threshold for a change is 105.599998
+05-11-2018 15:18:55.510 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2908ms, minimum threshold for a change is 145.399994
+05-11-2018 15:18:58.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:18:58.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:18:58.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:18:58.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:19:00.254 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4744ms, minimum threshold for a change is 237.199997
+05-11-2018 15:19:06.135 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5880ms, minimum threshold for a change is 294.000000
+05-11-2018 15:19:10.896 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4760ms, minimum threshold for a change is 238.000000
+05-11-2018 15:19:19.480 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 8584ms, minimum threshold for a change is 429.200012
+05-11-2018 15:19:24.123 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4644ms, minimum threshold for a change is 232.199997
+05-11-2018 15:19:28.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:19:28.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:19:28.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:19:28.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:19:29.042 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4920ms, minimum threshold for a change is 246.000000
+05-11-2018 15:19:33.866 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4824ms, minimum threshold for a change is 241.199997
+05-11-2018 15:19:36.109 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 17
+05-11-2018 15:19:37.905 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4036ms, minimum threshold for a change is 201.800003
+05-11-2018 15:19:39.110 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 5
+05-11-2018 15:19:42.730 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 22 requests in last 4828ms, minimum threshold for a change is 241.399994
+05-11-2018 15:19:44.111 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 4
+05-11-2018 15:19:45.112 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 6
+05-11-2018 15:19:54.113 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 31
+05-11-2018 15:19:58.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:19:58.851 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:19:58.851 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:19:58.851 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:19:59.116 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 1
+05-11-2018 15:20:01.117 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 46
+05-11-2018 15:20:09.118 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 38
+05-11-2018 15:20:17.119 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 42
+05-11-2018 15:20:21.120 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 18
+05-11-2018 15:20:28.851 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:20:28.852 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:20:28.852 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:20:28.852 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:20:33.122 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 13
+05-11-2018 15:20:52.124 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 9
+05-11-2018 15:20:57.125 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 30
+05-11-2018 15:20:58.852 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:20:58.852 UTC Status alarm.cpp:37: sprout issued 1005.1 alarm
+05-11-2018 15:20:58.852 UTC Status alarm.cpp:37: sprout issued 1012.3 alarm
+05-11-2018 15:20:58.852 UTC Status alarm.cpp:37: sprout issued 1013.3 alarm
+05-11-2018 15:21:00.126 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 10
+05-11-2018 15:21:02.127 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 35
+05-11-2018 15:21:07.128 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 2
+05-11-2018 15:21:13.129 UTC Status sip_connection_pool.cpp:423: Recycle TCP connection slot 40

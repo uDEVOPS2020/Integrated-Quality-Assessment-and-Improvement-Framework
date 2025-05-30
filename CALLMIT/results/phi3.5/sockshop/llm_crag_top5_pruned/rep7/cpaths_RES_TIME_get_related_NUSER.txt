@@ -1,0 +1,10 @@
+NUSER->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_related
+
+NUSER->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_related
+
+NUSER->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_related
+
+NUSER->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->REQ/s_get_catalogue3->REQ/s_get_item->REQ/s_get_related->RES_TIME_get_related
+
+NUSER->REQ/s_get_catalogue1->REQ/s_get_catalogue2->REQ/s_get_catalogue3->REQ/s_get_item->REQ/s_get_related->RES_TIME_get_related
+

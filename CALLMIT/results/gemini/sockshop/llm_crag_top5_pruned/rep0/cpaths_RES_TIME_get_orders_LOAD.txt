@@ -1,0 +1,10 @@
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->REQ/s_get_catalogue3->REQ/s_get_item->REQ/s_get_related->RES_TIME_get_orders
+
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->REQ/s_get_catalogue3->REQ/s_get_related->RES_TIME_get_orders
+
+LOAD->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->REQ/s_get_catalogue3->REQ/s_get_item->REQ/s_get_related->RES_TIME_get_orders
+
+LOAD->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->REQ/s_get_catalogue3->REQ/s_get_related->RES_TIME_get_orders
+
+LOAD->CPU_login->REQ/s_get_item->REQ/s_get_related->RES_TIME_get_orders
+

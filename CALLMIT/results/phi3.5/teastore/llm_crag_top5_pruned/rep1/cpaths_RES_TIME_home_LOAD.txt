@@ -1,0 +1,4 @@
+LOAD->REQ/s_buy->RES_TIME_home
+
+LOAD->REQ/s_buy->RES_TIME_login_page->RES_TIME_home
+

@@ -1,0 +1,27 @@
+==========System Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 51
+- NUSER has to be greater than 4
+- LOAD has to be 'stress_shop' or 'stress_cart' or 'normal'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+NUSER -> RES_TIME_login
+LOAD -> RES_TIME_login
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Human==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads RES_TIME_login to exceed 106.86021032616965<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

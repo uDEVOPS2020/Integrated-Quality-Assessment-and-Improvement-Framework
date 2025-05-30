@@ -1,0 +1,10 @@
+SR->CPU_s1->CPU_s4
+
+SR->CPU_s3->REQ/s_s5->REQ/s_s2->REQ/s_s4->CPU_s4
+
+SR->CPU_s3->REQ/s_s5->CPU_s4
+
+SR->CPU_s3->REQ/s_s5->CPU_s5->CPU_s4
+
+SR->CPU_s3->CPU_s5->CPU_s4
+

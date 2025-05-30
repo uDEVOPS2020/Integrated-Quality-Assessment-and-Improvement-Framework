@@ -1,0 +1,27 @@
+==========Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 31
+- NUSER has to be greater than 3
+- LOAD has to be 'randomly_balanced' or 'unbalanced_one' or 'uniform'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+NUSER -> CPU_s3
+SR -> CPU_s3
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Question==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads CPU_s3 to exceed 5.286684304786573<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

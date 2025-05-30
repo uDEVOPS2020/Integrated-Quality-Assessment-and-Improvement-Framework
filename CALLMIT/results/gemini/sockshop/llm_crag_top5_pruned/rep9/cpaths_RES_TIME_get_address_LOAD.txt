@@ -1,0 +1,10 @@
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_cart->CPU_get_cart->RES_TIME_add_item_to_cart->RES_TIME_get_card->RES_TIME_get_address
+
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_tags->RES_TIME_get_cart->CPU_get_cart->RES_TIME_add_item_to_cart->RES_TIME_get_card->RES_TIME_get_address
+
+LOAD->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_cart->CPU_get_cart->RES_TIME_add_item_to_cart->RES_TIME_get_card->RES_TIME_get_address
+
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_related->RES_TIME_add_item_to_cart->RES_TIME_get_card->RES_TIME_get_address
+
+LOAD->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3->RES_TIME_get_tags->RES_TIME_get_cart->CPU_get_cart->RES_TIME_add_item_to_cart->RES_TIME_get_card->RES_TIME_get_address
+

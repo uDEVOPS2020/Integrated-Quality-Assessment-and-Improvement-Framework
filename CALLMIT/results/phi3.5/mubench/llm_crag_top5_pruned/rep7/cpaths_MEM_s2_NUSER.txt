@@ -1,0 +1,6 @@
+NUSER->MEM_s0->MEM_s2
+
+NUSER->CPU_s3->MEM_s0->MEM_s2
+
+NUSER->MEM_s6->MEM_s2
+

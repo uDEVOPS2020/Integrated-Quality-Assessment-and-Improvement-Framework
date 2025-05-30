@@ -1,0 +1,10 @@
+LOAD->REQ/s_buy->RES_TIME_category->RES_TIME_logout->RES_TIME_addToCart
+
+LOAD->REQ/s_buy->RES_TIME_login_page->RES_TIME_view_product->RES_TIME_addToCart
+
+LOAD->REQ/s_buy->RES_TIME_logout->RES_TIME_addToCart
+
+LOAD->REQ/s_buy->RES_TIME_category->RES_TIME_addToCart
+
+LOAD->RES_TIME_category->RES_TIME_logout->RES_TIME_addToCart
+

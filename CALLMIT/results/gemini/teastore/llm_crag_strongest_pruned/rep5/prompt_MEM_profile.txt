@@ -1,0 +1,26 @@
+==========System Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 31
+- NUSER has to be greater than 3
+- LOAD has to be 'stress_cart' or 'stress_shop' or 'normal'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+SR -> MEM_addToCart -> MEM_category -> MEM_login_page -> MEM_profile
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Human==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads MEM_profile to exceed 2360.0616492055624<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

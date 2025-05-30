@@ -1,0 +1,6 @@
+LOAD->REQ/s_login->CPU_get_catalogue1->CPU_get_catalogue3
+
+LOAD->CPU_login->CPU_get_catalogue1->CPU_get_catalogue3
+
+LOAD->CPU_get_catalogue1->CPU_get_catalogue3
+

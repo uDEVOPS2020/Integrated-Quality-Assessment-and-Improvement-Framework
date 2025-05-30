@@ -1,0 +1,10 @@
+NUSER->CPU_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3
+
+NUSER->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3
+
+NUSER->RES_TIME_login->REQ/s_get_catalogue1->REQ/s_get_catalogue2->RES_TIME_get_catalogue3
+
+NUSER->CPU_login->CPU_get_catalogue1->RES_TIME_get_catalogue3
+
+NUSER->CPU_get_catalogue1->RES_TIME_get_catalogue3
+

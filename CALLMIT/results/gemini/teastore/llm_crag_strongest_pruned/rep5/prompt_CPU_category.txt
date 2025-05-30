@@ -1,0 +1,26 @@
+==========System Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 31
+- NUSER has to be greater than 3
+- LOAD has to be 'stress_cart' or 'stress_shop' or 'normal'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+NUSER -> CPU_addToCart -> CPU_buy -> CPU_category
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Human==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads CPU_category to exceed 244.58187407983533<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

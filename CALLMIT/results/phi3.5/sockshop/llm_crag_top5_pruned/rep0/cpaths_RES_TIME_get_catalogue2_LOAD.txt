@@ -1,0 +1,10 @@
+LOAD->RES_TIME_login->RES_TIME_get_catalogue1->RES_TIME_get_catalogue2
+
+LOAD->RES_TIME_login->REQ/s_get_catalogue1->RES_TIME_get_catalogue2
+
+LOAD->CPU_login->REQ/s_get_catalogue1->RES_TIME_get_catalogue2
+
+LOAD->REQ/s_login->RES_TIME_login->RES_TIME_get_catalogue1->RES_TIME_get_catalogue2
+
+LOAD->REQ/s_login->RES_TIME_login->REQ/s_get_catalogue1->RES_TIME_get_catalogue2
+

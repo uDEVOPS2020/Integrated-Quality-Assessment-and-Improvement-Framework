@@ -1,0 +1,4 @@
+LOAD->REQ/s_login->RES_TIME_login->RES_TIME_get_catalogue1
+
+LOAD->RES_TIME_login->RES_TIME_get_catalogue1
+

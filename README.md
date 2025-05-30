@@ -1,4 +1,4 @@
-# uDEVOPS2020 – Integrated Quality Assessment and Improvement Framework
+# Integrated Quality Assessment and Improvement Framework
 
 ## Overview
 
@@ -49,7 +49,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attributes**: Functional Correctness, Robustness  
 - **Internal Name**: `MacroHive`  
 - **Maturity Level**: 1  
-- **Link**: [MacroHive](https://github.com/uDEVOPS2020/MacroHive)
+- **Link**: [MacroHive](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/MacroHive)
 
 ---
 
@@ -61,7 +61,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Performance  
 - **Internal Name**: `CallMIT`  
 - **Maturity Level**: 1  
-- **Link**: [CALLMIT](https://github.com/uDEVOPS2020/CALLMIT)
+- **Link**: [CALLMIT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/CALLMIT)
 
 ---
 
@@ -73,7 +73,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Functional Correctness  
 - **Internal Name**: `Lacuna`  
 - **Maturity Level**: 1  
-- **Link**: [Lacuna-evaluation](https://github.com/S2-group/Lacuna-evaluation)
+- **Link**: [Lacuna-evaluation](https://github.com/S2-group/Lacuna-evaluation) (original repository)
 
 ---
 
@@ -85,7 +85,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Reliability  
 - **Internal Name**: `EMART`  
 - **Maturity Level**: 1  
-- **Link**: [EMART](https://github.com/uDEVOPS2020/EMART)
+- **Link**: [EMART](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/EMART)
 
 ---
 
@@ -97,7 +97,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attributes**: Reliability, Performance  
 - **Internal Name**: `MIPaRT`  
 - **Maturity Level**: 1  
-- **Link**: _To be retrieved_
+- **Link**: [MIPaRT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/MIPaRT)
 
 ---
 
@@ -109,7 +109,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attributes**: Reliability, Functional Correctness  
 - **Internal Name**: `LoMiT`  
 - **Maturity Level**: 1  
-- **Link**: _To be retrieved_
+- **Link**: [LoMiT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/LoMiT)
 
 ---
 

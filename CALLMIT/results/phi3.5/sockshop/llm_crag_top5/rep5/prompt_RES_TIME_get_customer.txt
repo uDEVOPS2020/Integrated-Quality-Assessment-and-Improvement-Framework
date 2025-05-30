@@ -1,0 +1,40 @@
+==========Prompt==========
+
+<|system|>
+Use the following constraints:
+- NUSER has to be less than 51
+- NUSER has to be greater than 4
+- LOAD has to be 'stress_shop' or 'normal' or 'stress_cart'
+- SR has to be '1' or 10 or 5
+Use the following causal paths:
+NUSER -> CPU_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+NUSER -> REQ/s_login -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+NUSER -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+NUSER -> RES_TIME_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+NUSER -> CPU_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> RES_TIME_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+LOAD -> RES_TIME_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+LOAD -> RES_TIME_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> RES_TIME_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+LOAD -> RES_TIME_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+LOAD -> CPU_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+LOAD -> CPU_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> RES_TIME_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+SR -> CPU_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+SR -> CPU_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> RES_TIME_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+SR -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+SR -> CPU_login -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> REQ/s_get_item -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+SR -> REQ/s_get_catalogue1 -> REQ/s_get_catalogue2 -> RES_TIME_get_catalogue3 -> RES_TIME_get_item -> REQ/s_get_related -> REQ/s_get_cart -> CPU_get_cart -> RES_TIME_add_item_to_cart -> RES_TIME_get_customer
+
+Use the following context to help:
+{context}<|end|>
+<|user|>
+{question}
+<|assistant|>
+
+
+==========Question==========
+
+Generate one JSON structure (NUSER, LOAD, SR) which leads RES_TIME_get_customer to exceed 50.79558941243667<|end|>
+
+Provide the results in JSON format, matching the structure of the triple:
+- NUSER: the user size
+- LOAD: the operational profile
+- SR: the spawn rate

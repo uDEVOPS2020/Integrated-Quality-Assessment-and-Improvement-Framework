@@ -1,0 +1,259 @@
+05-11-2018 15:02:51.929 UTC Status globals.cpp:135: Bind address: 172.18.0.5
+05-11-2018 15:02:51.929 UTC Status globals.cpp:139: Bind port: 7253
+05-11-2018 15:02:51.929 UTC Status globals.cpp:143: HTTP Threads: 50
+05-11-2018 15:02:51.929 UTC Status globals.cpp:147: HTTP GR Threads: 50
+05-11-2018 15:02:51.929 UTC Status globals.cpp:151: Maximum post-exception TTL: 600
+05-11-2018 15:02:51.929 UTC Status globals.cpp:177: Instance ID is 0, deployment ID is 0
+05-11-2018 15:02:51.929 UTC Status globals.cpp:181: Cluster local address: 127.0.0.1:7253
+05-11-2018 15:02:51.929 UTC Status globals.cpp:223: Staying nodes:
+05-11-2018 15:02:51.929 UTC Status globals.cpp:228:  - 127.0.0.1:7253
+05-11-2018 15:02:51.929 UTC Status globals.cpp:231: Joining nodes:
+05-11-2018 15:02:51.929 UTC Status globals.cpp:252: Cluster view ID: 288231544393302080
+05-11-2018 15:02:51.930 UTC Status globals.cpp:260: Local site: site1
+05-11-2018 15:02:51.930 UTC Status snmp_agent.cpp:98: AgentX agent initialised
+05-11-2018 15:02:51.934 UTC Warning (Net-SNMP): Warning: Failed to connect to the agentx master agent ([NIL]): 
+05-11-2018 15:02:51.957 UTC Status alarm.cpp:81: Alarm severity changed from NULL to 3002.1
+05-11-2018 15:02:51.957 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:02:51.965 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:02:51.965 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:02:52.010 UTC Status dnscachedresolver.cpp:126: Creating Cached Resolver using servers:
+05-11-2018 15:02:52.010 UTC Status dnscachedresolver.cpp:136:     127.0.0.11
+05-11-2018 15:02:52.015 UTC Error dnscachedresolver.cpp:251: DNS config file /etc/clearwater/dns.json missing
+05-11-2018 15:02:52.016 UTC Status a_record_resolver.cpp:29: Created ARecordResolver
+05-11-2018 15:02:52.499 UTC Status http_connection_pool.cpp:35: Connection pool will use calculated response timeout of 550ms
+05-11-2018 15:02:52.502 UTC Status load_monitor.cpp:80: Constructing LoadMonitor
+05-11-2018 15:02:52.502 UTC Status load_monitor.cpp:81:    Target latency (usecs)   : 500000
+05-11-2018 15:02:52.502 UTC Status load_monitor.cpp:82:    Max bucket size          : 1000
+05-11-2018 15:02:52.502 UTC Status load_monitor.cpp:83:    Initial token fill rate/s: 500.000000
+05-11-2018 15:02:52.502 UTC Status load_monitor.cpp:84:    Min token fill rate/s    : 10.000000
+05-11-2018 15:02:52.502 UTC Status httpstack.cpp:40: Constructing HTTP stack with 50 threads
+05-11-2018 15:02:52.509 UTC Status httpstack.cpp:163: Binding HTTP TCP socket: address=172.18.0.5, port=7253
+05-11-2018 15:02:52.864 UTC Status http_connection_pool.cpp:35: Connection pool will use calculated response timeout of 550ms
+05-11-2018 15:02:52.864 UTC Status alarm.cpp:81: Alarm severity changed from 3002.1 to 3002.5
+05-11-2018 15:02:52.864 UTC Status alarm.cpp:37: chronos issued 3002.5 alarm
+05-11-2018 15:02:52.880 UTC Status alarm.cpp:81: Alarm severity changed from 3002.5 to 3002.1
+05-11-2018 15:02:52.880 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:03:21.965 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:03:21.965 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:03:24.463 UTC Status globals.cpp:135: Bind address: 172.18.0.5
+05-11-2018 15:03:24.463 UTC Status globals.cpp:139: Bind port: 7253
+05-11-2018 15:03:24.463 UTC Status globals.cpp:143: HTTP Threads: 50
+05-11-2018 15:03:24.463 UTC Status globals.cpp:147: HTTP GR Threads: 50
+05-11-2018 15:03:24.463 UTC Status globals.cpp:151: Maximum post-exception TTL: 600
+05-11-2018 15:03:24.463 UTC Status globals.cpp:177: Instance ID is 21, deployment ID is 0
+05-11-2018 15:03:24.463 UTC Status globals.cpp:181: Cluster local address: 172.18.0.5
+05-11-2018 15:03:24.463 UTC Status globals.cpp:223: Staying nodes:
+05-11-2018 15:03:24.463 UTC Status globals.cpp:231: Joining nodes:
+05-11-2018 15:03:24.463 UTC Status globals.cpp:236:  - 172.18.0.5
+05-11-2018 15:03:24.463 UTC Status globals.cpp:252: Cluster view ID: 1116826239108
+05-11-2018 15:03:24.463 UTC Status globals.cpp:260: Local site: site1
+05-11-2018 15:03:27.593 UTC Status alarm.cpp:81: Alarm severity changed from 3002.1 to 3002.5
+05-11-2018 15:03:27.593 UTC Status alarm.cpp:37: chronos issued 3002.5 alarm
+05-11-2018 15:03:27.595 UTC Status alarm.cpp:81: Alarm severity changed from 3002.5 to 3002.1
+05-11-2018 15:03:27.595 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:03:33.602 UTC Status globals.cpp:135: Bind address: 172.18.0.5
+05-11-2018 15:03:33.602 UTC Status globals.cpp:139: Bind port: 7253
+05-11-2018 15:03:33.602 UTC Status globals.cpp:143: HTTP Threads: 50
+05-11-2018 15:03:33.602 UTC Status globals.cpp:147: HTTP GR Threads: 50
+05-11-2018 15:03:33.602 UTC Status globals.cpp:151: Maximum post-exception TTL: 600
+05-11-2018 15:03:33.602 UTC Status globals.cpp:177: Instance ID is 21, deployment ID is 0
+05-11-2018 15:03:33.602 UTC Status globals.cpp:181: Cluster local address: 172.18.0.5
+05-11-2018 15:03:33.602 UTC Status globals.cpp:223: Staying nodes:
+05-11-2018 15:03:33.602 UTC Status globals.cpp:228:  - 172.18.0.5
+05-11-2018 15:03:33.602 UTC Status globals.cpp:231: Joining nodes:
+05-11-2018 15:03:33.602 UTC Status globals.cpp:252: Cluster view ID: 1116826239108
+05-11-2018 15:03:33.602 UTC Status globals.cpp:260: Local site: site1
+05-11-2018 15:03:51.965 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:03:51.965 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:04:21.965 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:04:21.965 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:04:51.965 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:04:51.965 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:05:21.965 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:05:21.965 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:05:51.965 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:05:51.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:06:21.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:06:21.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:06:51.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:06:51.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:07:21.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:07:21.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:07:51.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:07:51.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:08:21.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:08:21.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:08:51.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:08:51.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:09:21.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:09:21.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:09:47.021 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 414522ms, minimum threshold for a change is 103630.492188
+05-11-2018 15:09:51.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:09:51.966 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:09:55.866 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 8844ms, minimum threshold for a change is 2211.000000
+05-11-2018 15:10:03.316 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 7448ms, minimum threshold for a change is 1862.000000
+05-11-2018 15:10:11.883 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 8568ms, minimum threshold for a change is 2142.000000
+05-11-2018 15:10:17.171 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5288ms, minimum threshold for a change is 1322.000000
+05-11-2018 15:10:21.966 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:10:21.967 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:10:22.891 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5720ms, minimum threshold for a change is 1430.000000
+05-11-2018 15:10:31.286 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 8396ms, minimum threshold for a change is 2099.000000
+05-11-2018 15:10:37.639 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 6352ms, minimum threshold for a change is 1588.000000
+05-11-2018 15:10:43.103 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5464ms, minimum threshold for a change is 1366.000000
+05-11-2018 15:10:48.204 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5100ms, minimum threshold for a change is 1275.000000
+05-11-2018 15:10:51.967 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:10:51.967 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:10:53.951 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5748ms, minimum threshold for a change is 1437.000000
+05-11-2018 15:11:01.196 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 7244ms, minimum threshold for a change is 1811.000000
+05-11-2018 15:11:10.050 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 8856ms, minimum threshold for a change is 2214.000000
+05-11-2018 15:11:16.332 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 6280ms, minimum threshold for a change is 1570.000000
+05-11-2018 15:11:21.393 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5060ms, minimum threshold for a change is 1265.000000
+05-11-2018 15:11:21.967 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:11:21.967 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:11:25.864 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4472ms, minimum threshold for a change is 1118.000000
+05-11-2018 15:11:30.568 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4704ms, minimum threshold for a change is 1176.000000
+05-11-2018 15:11:36.048 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5480ms, minimum threshold for a change is 1370.000000
+05-11-2018 15:11:40.801 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4756ms, minimum threshold for a change is 1189.000000
+05-11-2018 15:11:46.204 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5400ms, minimum threshold for a change is 1350.000000
+05-11-2018 15:11:51.967 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:11:51.967 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:11:52.018 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5816ms, minimum threshold for a change is 1454.000000
+05-11-2018 15:11:58.252 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 6232ms, minimum threshold for a change is 1558.000000
+05-11-2018 15:12:04.416 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 6164ms, minimum threshold for a change is 1541.000000
+05-11-2018 15:12:10.430 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 6016ms, minimum threshold for a change is 1504.000000
+05-11-2018 15:12:14.903 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4472ms, minimum threshold for a change is 1118.000000
+05-11-2018 15:12:19.832 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4928ms, minimum threshold for a change is 1232.000000
+05-11-2018 15:12:21.967 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:12:21.967 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:12:24.044 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4212ms, minimum threshold for a change is 1053.000000
+05-11-2018 15:12:28.368 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4324ms, minimum threshold for a change is 1081.000000
+05-11-2018 15:12:33.221 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4852ms, minimum threshold for a change is 1213.000000
+05-11-2018 15:12:37.552 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4332ms, minimum threshold for a change is 1083.000000
+05-11-2018 15:12:41.551 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4000ms, minimum threshold for a change is 1000.000000
+05-11-2018 15:12:46.444 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4892ms, minimum threshold for a change is 1223.000000
+05-11-2018 15:12:50.518 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4076ms, minimum threshold for a change is 1019.000000
+05-11-2018 15:12:51.967 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:12:51.967 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:12:55.008 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4489ms, minimum threshold for a change is 1122.250000
+05-11-2018 15:12:59.967 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4960ms, minimum threshold for a change is 1240.000000
+05-11-2018 15:13:04.007 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4036ms, minimum threshold for a change is 1009.000000
+05-11-2018 15:13:07.791 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3784ms, minimum threshold for a change is 946.000000
+05-11-2018 15:13:12.588 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4796ms, minimum threshold for a change is 1199.000000
+05-11-2018 15:13:16.393 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3808ms, minimum threshold for a change is 952.000000
+05-11-2018 15:13:19.798 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3404ms, minimum threshold for a change is 851.000000
+05-11-2018 15:13:21.967 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:13:21.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:13:24.099 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4300ms, minimum threshold for a change is 1075.000000
+05-11-2018 15:13:28.003 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3904ms, minimum threshold for a change is 976.000000
+05-11-2018 15:13:34.815 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 6812ms, minimum threshold for a change is 1703.000000
+05-11-2018 15:13:39.410 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4596ms, minimum threshold for a change is 1149.000000
+05-11-2018 15:13:42.652 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3240ms, minimum threshold for a change is 810.000000
+05-11-2018 15:13:47.651 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5000ms, minimum threshold for a change is 1250.000000
+05-11-2018 15:13:50.874 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3224ms, minimum threshold for a change is 806.000000
+05-11-2018 15:13:51.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:13:51.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:13:55.417 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4540ms, minimum threshold for a change is 1135.000000
+05-11-2018 15:13:58.767 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3352ms, minimum threshold for a change is 838.000000
+05-11-2018 15:14:03.014 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4248ms, minimum threshold for a change is 1062.000000
+05-11-2018 15:14:06.301 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3288ms, minimum threshold for a change is 822.000000
+05-11-2018 15:14:10.303 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4000ms, minimum threshold for a change is 1000.000000
+05-11-2018 15:14:14.985 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4680ms, minimum threshold for a change is 1170.000000
+05-11-2018 15:14:19.043 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4060ms, minimum threshold for a change is 1015.000000
+05-11-2018 15:14:21.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:14:21.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:14:22.702 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3660ms, minimum threshold for a change is 915.000000
+05-11-2018 15:14:27.336 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4632ms, minimum threshold for a change is 1158.000000
+05-11-2018 15:14:31.474 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4140ms, minimum threshold for a change is 1035.000000
+05-11-2018 15:14:36.410 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4936ms, minimum threshold for a change is 1234.000000
+05-11-2018 15:14:41.712 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5300ms, minimum threshold for a change is 1325.000000
+05-11-2018 15:14:46.646 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4936ms, minimum threshold for a change is 1234.000000
+05-11-2018 15:14:51.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:14:51.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:14:51.988 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5340ms, minimum threshold for a change is 1335.000000
+05-11-2018 15:14:56.853 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4868ms, minimum threshold for a change is 1217.000000
+05-11-2018 15:15:02.121 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5268ms, minimum threshold for a change is 1317.000000
+05-11-2018 15:15:06.880 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4756ms, minimum threshold for a change is 1189.000000
+05-11-2018 15:15:12.299 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5420ms, minimum threshold for a change is 1355.000000
+05-11-2018 15:15:17.474 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5176ms, minimum threshold for a change is 1294.000000
+05-11-2018 15:15:21.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:15:21.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:15:22.826 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5352ms, minimum threshold for a change is 1338.000000
+05-11-2018 15:15:26.143 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3316ms, minimum threshold for a change is 829.000000
+05-11-2018 15:15:29.438 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3296ms, minimum threshold for a change is 824.000000
+05-11-2018 15:15:31.854 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2416ms, minimum threshold for a change is 604.000000
+05-11-2018 15:15:35.012 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3156ms, minimum threshold for a change is 789.000000
+05-11-2018 15:15:38.369 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3360ms, minimum threshold for a change is 840.000000
+05-11-2018 15:15:41.232 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 2860ms, minimum threshold for a change is 715.000000
+05-11-2018 15:15:46.208 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4976ms, minimum threshold for a change is 1244.000000
+05-11-2018 15:15:51.650 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5444ms, minimum threshold for a change is 1361.000000
+05-11-2018 15:15:51.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:15:51.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:15:56.738 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5088ms, minimum threshold for a change is 1272.000000
+05-11-2018 15:16:02.184 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5444ms, minimum threshold for a change is 1361.000000
+05-11-2018 15:16:06.175 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3992ms, minimum threshold for a change is 998.000000
+05-11-2018 15:16:10.423 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4248ms, minimum threshold for a change is 1062.000000
+05-11-2018 15:16:14.367 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3944ms, minimum threshold for a change is 986.000000
+05-11-2018 15:16:18.641 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4276ms, minimum threshold for a change is 1069.000000
+05-11-2018 15:16:21.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:16:21.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:16:25.013 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 6372ms, minimum threshold for a change is 1593.000000
+05-11-2018 15:16:28.586 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3572ms, minimum threshold for a change is 893.000000
+05-11-2018 15:16:31.939 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3352ms, minimum threshold for a change is 838.000000
+05-11-2018 15:16:35.016 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3076ms, minimum threshold for a change is 769.000000
+05-11-2018 15:16:38.484 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3468ms, minimum threshold for a change is 867.000000
+05-11-2018 15:16:43.195 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4712ms, minimum threshold for a change is 1178.000000
+05-11-2018 15:16:47.121 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3924ms, minimum threshold for a change is 981.000000
+05-11-2018 15:16:50.313 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3192ms, minimum threshold for a change is 798.000000
+05-11-2018 15:16:51.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:16:51.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:16:54.393 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4080ms, minimum threshold for a change is 1020.000000
+05-11-2018 15:16:58.263 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3872ms, minimum threshold for a change is 968.000000
+05-11-2018 15:17:01.416 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3152ms, minimum threshold for a change is 788.000000
+05-11-2018 15:17:05.443 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4028ms, minimum threshold for a change is 1007.000000
+05-11-2018 15:17:09.527 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4084ms, minimum threshold for a change is 1021.000000
+05-11-2018 15:17:12.700 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3172ms, minimum threshold for a change is 793.000000
+05-11-2018 15:17:17.168 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4468ms, minimum threshold for a change is 1117.000000
+05-11-2018 15:17:21.399 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4232ms, minimum threshold for a change is 1058.000000
+05-11-2018 15:17:21.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:17:21.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:17:24.918 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3520ms, minimum threshold for a change is 880.000000
+05-11-2018 15:17:29.631 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4712ms, minimum threshold for a change is 1178.000000
+05-11-2018 15:17:33.994 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4364ms, minimum threshold for a change is 1091.000000
+05-11-2018 15:17:37.591 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3597ms, minimum threshold for a change is 899.250000
+05-11-2018 15:17:42.141 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4552ms, minimum threshold for a change is 1138.000000
+05-11-2018 15:17:46.447 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4304ms, minimum threshold for a change is 1076.000000
+05-11-2018 15:17:50.010 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3564ms, minimum threshold for a change is 891.000000
+05-11-2018 15:17:51.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:17:51.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:17:54.731 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4720ms, minimum threshold for a change is 1180.000000
+05-11-2018 15:17:59.034 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4304ms, minimum threshold for a change is 1076.000000
+05-11-2018 15:18:02.499 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3464ms, minimum threshold for a change is 866.000000
+05-11-2018 15:18:07.121 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4620ms, minimum threshold for a change is 1155.000000
+05-11-2018 15:18:11.343 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4224ms, minimum threshold for a change is 1056.000000
+05-11-2018 15:18:14.798 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3456ms, minimum threshold for a change is 864.000000
+05-11-2018 15:18:19.565 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4768ms, minimum threshold for a change is 1192.000000
+05-11-2018 15:18:21.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:18:21.968 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:18:23.796 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4228ms, minimum threshold for a change is 1057.000000
+05-11-2018 15:18:27.302 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 3508ms, minimum threshold for a change is 877.000000
+05-11-2018 15:18:31.804 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4500ms, minimum threshold for a change is 1125.000000
+05-11-2018 15:18:36.004 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 4200ms, minimum threshold for a change is 1050.000000
+05-11-2018 15:18:41.281 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5280ms, minimum threshold for a change is 1320.000000
+05-11-2018 15:18:46.719 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5436ms, minimum threshold for a change is 1359.000000
+05-11-2018 15:18:51.968 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:18:51.969 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:18:52.510 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 5792ms, minimum threshold for a change is 1448.000000
+05-11-2018 15:19:01.606 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 9096ms, minimum threshold for a change is 2274.000000
+05-11-2018 15:19:15.475 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 13868ms, minimum threshold for a change is 3467.000000
+05-11-2018 15:19:21.969 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:19:21.969 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:19:29.054 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 13580ms, minimum threshold for a change is 3395.000000
+05-11-2018 15:19:39.350 UTC Status load_monitor.cpp:260: Maximum incoming request rate/second unchanged - only handled 20 requests in last 10296ms, minimum threshold for a change is 2574.000000
+05-11-2018 15:19:51.969 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:19:51.969 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:20:21.969 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:20:21.969 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:20:51.969 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:20:51.969 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm
+05-11-2018 15:21:21.969 UTC Status alarm.cpp:244: Reraising all alarms with a known state
+05-11-2018 15:21:21.969 UTC Status alarm.cpp:37: chronos issued 3002.1 alarm

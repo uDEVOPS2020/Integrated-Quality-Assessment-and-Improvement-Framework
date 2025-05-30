@@ -1,0 +1,50 @@
+{
+  "RES_TIME": {
+    "precision_mean": 0.49,
+    "precision_std": 0.03,
+    "recall_mean": 1.0,
+    "recall_std": 0.0,
+    "f1_mean": 0.657,
+    "f1_std": 0.029,
+    "true_positive_mean": 4.9,
+    "true_positive_std": 0.3,
+    "true_negative_mean": 0.0,
+    "true_negative_std": 0.0,
+    "false_positive_mean": 5.1,
+    "false_positive_std": 0.3,
+    "false_negative_mean": 0.0,
+    "false_negative_std": 0.0
+  },
+  "CPU": {
+    "precision_mean": 1.0,
+    "precision_std": 0.0,
+    "recall_mean": 1.0,
+    "recall_std": 0.0,
+    "f1_mean": 1.0,
+    "f1_std": 0.0,
+    "true_positive_mean": 10.0,
+    "true_positive_std": 0.0,
+    "true_negative_mean": 0.0,
+    "true_negative_std": 0.0,
+    "false_positive_mean": 0.0,
+    "false_positive_std": 0.0,
+    "false_negative_mean": 0.0,
+    "false_negative_std": 0.0
+  },
+  "MEM": {
+    "precision_mean": 0.0,
+    "precision_std": 0.0,
+    "recall_mean": 0.0,
+    "recall_std": 0.0,
+    "f1_mean": 0.0,
+    "f1_std": 0.0,
+    "true_positive_mean": 0.0,
+    "true_positive_std": 0.0,
+    "true_negative_mean": 0.0,
+    "true_negative_std": 0.0,
+    "false_positive_mean": 10.0,
+    "false_positive_std": 0.0,
+    "false_negative_mean": 0.0,
+    "false_negative_std": 0.0
+  }
+}
