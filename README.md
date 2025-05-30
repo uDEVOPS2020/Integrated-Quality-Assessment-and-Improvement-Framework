@@ -23,7 +23,7 @@ The services are categorized based on:
 
 ## Overview
 
-![Testing and Assessment Techniques](figs/overviewD5.pdf)
+![Testing and Assessment Techniques](figs/overviewD5.png)
 
 ---
 
