@@ -49,7 +49,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attributes**: Functional Correctness, Robustness  
 - **Internal Name**: `MacroHive`  
 - **Maturity Level**: 1  
-- **Link**: [MacroHive](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/MacroHive)
+- **Link**: [MacroHive](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive)
 
 ---
 
@@ -61,7 +61,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Performance  
 - **Internal Name**: `CallMIT`  
 - **Maturity Level**: 1  
-- **Link**: [CALLMIT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/CALLMIT)
+- **Link**: [CALLMIT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/CALLMIT)
 
 ---
 
@@ -85,7 +85,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Reliability  
 - **Internal Name**: `EMART`  
 - **Maturity Level**: 1  
-- **Link**: [EMART](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/EMART)
+- **Link**: [EMART](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/EMART)
 
 ---
 
@@ -97,7 +97,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attributes**: Reliability, Performance  
 - **Internal Name**: `MIPaRT`  
 - **Maturity Level**: 1  
-- **Link**: [MIPaRT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/MIPaRT)
+- **Link**: [MIPaRT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MIPaRT)
 
 ---
 
@@ -109,7 +109,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attributes**: Reliability, Functional Correctness  
 - **Internal Name**: `LoMiT`  
 - **Maturity Level**: 1  
-- **Link**: [LoMiT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/LoMiT)
+- **Link**: [LoMiT](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/LoMiT)
 
 ---
 
@@ -122,8 +122,8 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Name**: N/A  
 - **Maturity Level**: 3  
 - **Links**:  
-  - [Risk Assessment Mitigation](https://github.com/uDEVOPS2020/Risk_Assessment_Mitigation)  
-  - [ICSOC Monitoring](https://github.com/S2-group/icsoc-2023-energy-perf-monitoring-docker-rep-pkg)
+  - [Risk Assessment Mitigation](https://github.com/uDEVOPS2020/Risk_Assessment_Mitigation) 
+  - [ICSOC Monitoring](https://github.com/S2-group/icsoc-2023-energy-perf-monitoring-docker-rep-pkg) (original repository)
 
 ---
 
