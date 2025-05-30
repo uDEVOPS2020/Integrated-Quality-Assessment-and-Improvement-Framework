@@ -172,7 +172,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Scope**: Fault Removal  
 - **Internal Name**: `uKnows`  
 - **Maturity Level**: 2  
-- **Link**: [MacroHive](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive)
+- **Link**: [uKnows](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive/uKnows)
 
 ---
 
@@ -184,7 +184,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Quality Attribute**: Reliability  
 - **Internal Name**: `Micro2vec`  
 - **Maturity Level**: 1  
-- **Link**: [MacroHive](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive)
+- **Link**: [Micro2vec](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Micro2vec)
 
 ---
 
