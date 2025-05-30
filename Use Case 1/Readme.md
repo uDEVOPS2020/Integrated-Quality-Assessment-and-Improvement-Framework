@@ -7,7 +7,7 @@ This folder contains the dataset and code to reproduce the test prioritization e
 
 **Workload generation**: 
 
-The dataset is automatically generated with a teseting tool we are developing in the context of the project's WP2, called [uTest](https://github.com/uDEVOPS2020/uTest). The tool generates tests starting from microservices' OpenAPI specifications. Configured in *pairwise mode*, the tool generated 4690 test cases by a combinatorial testing strategy. 
+The dataset is automatically generated with a teseting tool we are developing in the context of the project's WP2, called [uTest](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive/uTest). The tool generates tests starting from microservices' OpenAPI specifications. Configured in *pairwise mode*, the tool generated 4690 test cases by a combinatorial testing strategy. 
 
 The so-obtained dataset has the following columns: 
 

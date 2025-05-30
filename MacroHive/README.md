@@ -1,6 +1,6 @@
 # MacroHive
 
-![alt text](https://github.com/uDEVOPS2020/MacroHive/blob/main/MacroHive.jpg?raw=true)
+![alt text](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive/MacroHive.jpg?raw=true)
 
 This is the repository of the tool MacroHive, presented at QRS 2022 in the paper "Automated Grey-box Testing of Microservice Architectures" and "Automated Functional and Robustness Testing of Microservice Architectures", submitted at JSS.
 

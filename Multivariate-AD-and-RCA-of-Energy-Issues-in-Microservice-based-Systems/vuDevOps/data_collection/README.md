@@ -7,7 +7,7 @@ The following data collection scripts and evaluation tools were designed to be a
 This section describes how to gather performance and energy data from SockShop or TrainTicket using Prometheus. 
 ## 2.1 Requirements:
 ### 2.1.1 Requirement 1:
-Before running the data collection process it is important to have SockShop or TrainTicket up and running, along with all monitoring services. For more information, please look at the documentation under the [vuDevOps/microservices-demo](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/vuDevOps/microservices-demo) folder.
+Before running the data collection process it is important to have SockShop or TrainTicket up and running, along with all monitoring services. For more information, please look at the documentation under the [vuDevOps/microservices-demo](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-SystemsvuDevOps/microservices-demo) folder.
 ### 2.1.2 Requirement 2:
 Create and activate a Python virtual environment, and install the required modules using the following commands:
 ```zsh
@@ -43,4 +43,4 @@ python3 experiment-runner/ examples/trainticket/RunnerConfig.py
 In the case the experiment fails for whatever reason (e.g. bad data, power outage) you can resume the experiment from the last succesfully run trial. 
 
 # 3. Running AD and RCD
-Instructions for running Anomaly Detection and Root Cause Analysis tools are available within the [`data_analysis`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis) folder.
+Instructions for running Anomaly Detection and Root Cause Analysis tools are available within the [`data_analysis`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis) folder.

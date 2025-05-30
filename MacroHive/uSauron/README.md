@@ -4,4 +4,4 @@
 
 ## Commands
 
-All commands are HTTP requests to this microservice. Requests are collected in scripts ([ClientCommands](https://github.com/uDEVOPS2020/MacroHive/blob/main/uSauron/ClientCommands) folder) to perform functionalities.
+All commands are HTTP requests to this microservice. Requests are collected in scripts ([ClientCommands](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/MacroHive/uSauron/ClientCommands) folder) to perform functionalities.

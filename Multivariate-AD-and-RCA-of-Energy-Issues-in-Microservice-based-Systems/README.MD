@@ -14,20 +14,20 @@ In this study, [Experiment Runner](https://github.com/S2-group/experiment-runner
 
 You can find the documentation to run the experiment for:
 
-- Baseline: [`experiment-runner/examples/baseline`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/experiment-runner/examples/baseline)
+- Baseline: [`experiment-runner/examples/baseline`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsexperiment-runner/examples/baseline)
 
-- Sockshop: [`experiment-runner/examples/sockshop`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/experiment-runner/examples/sockshop)
+- Sockshop: [`experiment-runner/examples/sockshop`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsexperiment-runner/examples/sockshop)
 
-- TrainTicket: [`experiment-runner/examples/trainticket`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/experiment-runner/examples/trainticket)
+- TrainTicket: [`experiment-runner/examples/trainticket`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsexperiment-runner/examples/trainticket)
 
 ### Data Collection
-All the documentation, programs, and files used for the data collection during the experiment execution can be found in the [`vuDevOps/data_collection`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/vuDevOps/data_collection) folder.
+All the documentation, programs, and files used for the data collection during the experiment execution can be found in the [`vuDevOps/data_collection`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-SystemsvuDevOps/data_collection) folder.
 
 Moreover, you can find the raw data collected during the experiment in the following folders:
 
-- Sockshop data: [`vuDevOps/data_collection/sockshop-data`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/vuDevOps/data_collection/sockshop-data)
+- Sockshop data: [`vuDevOps/data_collection/sockshop-data`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-SystemsvuDevOps/data_collection/sockshop-data)
 
-- TrainTicket data: [`vuDevOps/data_collection/trainticket-data`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/vuDevOps/data_collection/trainticket-data)
+- TrainTicket data: [`vuDevOps/data_collection/trainticket-data`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-SystemsvuDevOps/data_collection/trainticket-data)
 
 ### Code Used for Full Experiment
 
@@ -65,14 +65,14 @@ python3 experiment-runner/ examples/trainticket/RunnerConfig.py
 
 ## Phase 2: Execution and Analysis of Anomaly Detection (AD) and Root Cause Analysis (RCA) algorithms
 
-All the necessary files to reproduce the data processing, training, and execution of the AD and RCA algorithms can be found in the [`data_analysis`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis) folder.
+All the necessary files to reproduce the data processing, training, and execution of the AD and RCA algorithms can be found in the [`data_analysis`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis) folder.
 
 ### Anomaly Detection 
 
-In the [`data_analysis/AD`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/AD) folder you will find:
+In the [`data_analysis/AD`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/AD) folder you will find:
 
-- [`anomaly_detection_models`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/AD/anomaly_detection_models) folder, where the trained AD models are stored
-- [`results`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/AD/results) folder, where the results for the AD algorithms are stored
+- [`anomaly_detection_models`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/AD/anomaly_detection_models) folder, where the trained AD models are stored
+- [`results`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/AD/results) folder, where the results for the AD algorithms are stored
 - `AD_execution.ipynb`: Jupyter notebook where all the data preprocessing and visualization, as well as the training and execution of the AD algorithms, is done.
 - `anomalous_data.csv`: Sockshop dataset where all the anomalous data collected (stressing specific services) has been combined
 - `ts-anomalous_data.csv`: TrainTicket dataset where all the anomalous data collected (stressing specific services) has been combined
@@ -84,15 +84,15 @@ In the [`data_analysis/AD`](https://github.com/uDEVOPS2020/Multivariate-AD-and-R
 - `ts-anomalous_detection_execution_metrics.csv`: Average CPU and memory usage during the execution of the AD algorithms for the TrainTicket dataset
 
 ### Root Cause Analysis
-In the [`data_analysis/RCA`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/RCA) folder you will find different folders for the RCA algorithms, including:
+In the [`data_analysis/RCA`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/RCA) folder you will find different folders for the RCA algorithms, including:
 
-- [`CausalRCA`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/RCA/CausalRCA)
-- [`MicroRCA`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/RCA/MicroRCA)
-- [`PyRCA`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/RCA/PyRCA)
-- [`results`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/RCA/results), where the results for the RCA algorithms are stored
+- [`CausalRCA`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/RCA/CausalRCA)
+- [`MicroRCA`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/RCA/MicroRCA)
+- [`PyRCA`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/RCA/PyRCA)
+- [`results`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/RCA/results), where the results for the RCA algorithms are stored
 
 ### Statistics
-In the [`data_analysis/Statistics`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/Statistics) folder, you will find the following:
+In the [`data_analysis/Statistics`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/Statistics) folder, you will find the following:
 
-- [`Descriptive statistics`](https://github.com/uDEVOPS2020/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems/tree/main/data_analysis/Statistics/Descriptive%20statistics) folder, where the final statistics for the AD and RCA algorithms after analyzing the Sockshop and TrainTicket datasets are stored.
+- [`Descriptive statistics`](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systemsdata_analysis/Statistics/Descriptive%20statistics) folder, where the final statistics for the AD and RCA algorithms after analyzing the Sockshop and TrainTicket datasets are stored.
 - `statistics.ipynb`: Jupyter notebook to compute the overall and detailed results for the AD and RCA algorithms, as well as to generate descriptive plots
