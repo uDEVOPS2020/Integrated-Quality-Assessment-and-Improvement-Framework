@@ -1,0 +1,27 @@
+[submodule "DAIC"]
+	path = Risk_Assessment/DAIC
+	url = https://github.com/dessertlab/DAIC.git
+
+[submodule "Risk_Assessment/ICOS"]
+	path = Risk_Assessment/ICOS
+	url = https://github.com/ICOS-OAA/ICOS.git
+
+[submodule "Risk_Mitigation/Lacuna-evaluation"]
+	path = Risk_Mitigation/Lacuna-evaluation
+	url = https://github.com/S2-group/Lacuna-evaluation.git
+
+[submodule "Risk_Assessment/Energy_Performance_Computer_Vision"]
+	path = Risk_Assessment/Energy_Performance_Computer_Vision
+	url = https://github.com/S2-group/EASE-2022-energy-ai-edge-containers-rep-pkg.git
+
+[submodule "Risk_Assessment/Energy_Performance_Computer_Andorid_Apps"]
+	path = Risk_Assessment/Energy_Performance_Computer_Andorid_Apps
+	url = https://github.com/S2-group/mobilesoft-2023-app-vs-web-android-rep-pkg.git
+	
+[submodule "Risk_Assessment/Energy_Performance_Computer_IoT"]
+	path = Risk_Assessment/Energy_Performance_Computer_IoT
+	url = https://github.com/S2-group/ease-2023-wasm-iot-rep-pkg.git
+	
+[submodule "Risk_Assessment/Energy_Performance_Computer_Monitoring_Tools"]
+	path = Risk_Assessment/Energy_Performance_Computer_Monitoring_Tools
+	url = https://github.com/S2-group/icsoc-2023-energy-perf-monitoring-docker-rep-pkg.git

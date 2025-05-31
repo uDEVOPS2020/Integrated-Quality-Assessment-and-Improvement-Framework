@@ -32,7 +32,7 @@ The services are categorized based on:
 
 The implemented techniques vary in maturity, categorized as follows:
 
-- **Level 1**: Fully implemented tools with user-friendly interfaces, requiring minimal effort to apply to any system under test.
+- **Level 1**: Fully implemented tools with user-friendly instructions, requiring minimal effort to apply to any system under test.
 
 - **Level 2**: Collections of scripts executable with provided prototypes; moderate effort needed to adapt to other systems.
 
@@ -122,7 +122,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Name**: N/A  
 - **Maturity Level**: 3  
 - **Links**:  
-  - [Risk Assessment Mitigation](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Risk_Assessment_Mitigation) 
+  - [Energy Consumption Assessment](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Energy_Consumption_Assessment) 
   - [ICSOC Monitoring](https://github.com/S2-group/icsoc-2023-energy-perf-monitoring-docker-rep-pkg) (original repository)
 
 ---
