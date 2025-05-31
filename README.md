@@ -197,8 +197,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Name**: N/A  
 - **Maturity Level**: 2  
 - **Links**:  
-  - [Repo 1](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems)  
-  - [Repo 2](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Anomaly-Detection-and-Root-Cause-Analysis-of-Microservices-Energy-Consumption)
+  - [Repository](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems)  
 
 ---
 
@@ -211,9 +210,7 @@ The implemented techniques vary in maturity, categorized as follows:
 - **Internal Name**: N/A  
 - **Maturity Level**: 2  
 - **Links**:  
-  - [Repo 1](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems)  
-  - [Repo 2](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Anomaly-Detection-and-Root-Cause-Analysis-of-Microservices-Energy-Consumption)
-
+  - [Repository](https://github.com/uDEVOPS2020/Integrated-Quality-Assessment-and-Improvement-Framework/tree/main/Multivariate-AD-and-RCA-of-Energy-Issues-in-Microservice-based-Systems)  
 
 ## Getting Started
 
